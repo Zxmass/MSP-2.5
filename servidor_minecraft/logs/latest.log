@@ -1,0 +1,204 @@
+[23:29:53] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[23:29:53] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) for Minecraft 1.21
+[23:29:54] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[23:29:54] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar'...
+[23:29:55] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar' in 1469ms.
+[23:29:56] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[23:29:56] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+ - EterniumCore (1.0-test-1), LuckPerms (5.4.146), Multiverse-Core (4.3.1-b861), NBTAPI (2.14.1), NametagEdit (4.5.24), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PluginManager (2.8.1), ProtocolLib (5.3.0), Vault (1.7.3-b131), ViaBackwards (5.1.1), ViaRewind (4.0.3), ViaVersion (5.1.1)
+[23:30:00] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[23:30:01] [ServerMain/INFO]: Loaded 1290 recipes
+[23:30:01] [ServerMain/INFO]: Loaded 1399 advancements
+[23:30:01] [Server thread/INFO]: Starting minecraft server version 1.21
+[23:30:01] [Server thread/INFO]: Loading properties
+[23:30:01] [Server thread/INFO]: This server is running Paper version 1.21-130-master@b1b5d4c (2024-08-10T10:02:42Z) (Implementing API version 1.21-R0.1-SNAPSHOT)
+[23:30:02] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[23:30:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[23:30:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[23:30:03] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[23:30:03] [Server thread/INFO]: Default game type: SURVIVAL
+[23:30:03] [Server thread/INFO]: Generating keypair
+[23:30:03] [Server thread/INFO]: Starting Minecraft server on *:25565
+[23:30:03] [Server thread/INFO]: Using epoll channel type
+[23:30:03] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[23:30:03] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[23:30:05] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[23:30:05] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[23:30:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[23:30:06] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[23:30:07] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[23:30:07] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[23:30:08] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[23:30:08] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[23:30:08] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[23:30:08] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[23:30:08] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.1
+[23:30:08] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21! Trying to find NMS support
+[23:30:08] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[23:30:09] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[23:30:09] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.24
+[23:30:09] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[23:30:09] [Server thread/INFO]: [EC] Loading server plugin EterniumCore v1.0-test-1
+[23:30:09] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[23:30:09] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
+[23:30:09] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[23:30:09] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[23:30:09] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[23:30:09] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[23:30:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[23:30:09] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[23:30:09] [Server thread/INFO]:         __    
+[23:30:09] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[23:30:09] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[23:30:09] [Server thread/INFO]: 
+[23:30:09] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[23:30:10] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[23:30:10] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[23:30:10] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[23:30:10] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1007ms)
+[23:30:10] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[23:30:10] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[23:30:10] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[23:30:10] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[23:30:10] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[23:30:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[23:30:10] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[23:30:10] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[23:30:10] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[23:30:10] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[23:30:10] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[23:30:11] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[23:30:11] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[23:30:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[23:30:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[23:30:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[23:30:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[23:30:11] [Server thread/INFO]: Preparing level "world"
+[23:30:11] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[23:30:12] [Server thread/INFO]: Time elapsed: 952 ms
+[23:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[23:30:12] [Server thread/INFO]: Time elapsed: 322 ms
+[23:30:12] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[23:30:13] [Server thread/INFO]: Time elapsed: 122 ms
+[23:30:13] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[23:30:13] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[23:30:13] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[23:30:13] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[23:30:13] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
+[23:30:13] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[23:30:13] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[23:30:13] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[23:30:13] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[23:30:15] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[23:30:15] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.24
+[23:30:15] [Server thread/ERROR]: Error occurred while enabling NametagEdit v4.5.24 (Is it up to date?)
+java.lang.ExceptionInInitializerError: null
+	at NametagEdit.jar/com.nametagedit.plugin.packets.PacketWrapper.<clinit>(PacketWrapper.java:28) ~[NametagEdit.jar:?]
+	at NametagEdit.jar/com.nametagedit.plugin.NametagEdit.testCompat(NametagEdit.java:103) ~[NametagEdit.jar:?]
+	at NametagEdit.jar/com.nametagedit.plugin.NametagEdit.onEnable(NametagEdit.java:39) ~[NametagEdit.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at NametagEdit.jar/com.nametagedit.plugin.packets.PacketAccessor.<clinit>(PacketAccessor.java:19) ~[NametagEdit.jar:?]
+	... 15 more
+[23:30:15] [Server thread/INFO]: [NametagEdit] Disabling NametagEdit v4.5.24
+[23:30:15] [Server thread/ERROR]: Error occurred while disabling NametagEdit v4.5.24
+java.lang.NullPointerException: Cannot invoke "com.nametagedit.plugin.NametagManager.reset()" because "this.manager" is null
+	at NametagEdit.jar/com.nametagedit.plugin.NametagEdit.onDisable(NametagEdit.java:86) ~[NametagEdit.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:291) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.disablePlugin(PaperPluginInstanceManager.java:237) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.disablePlugin(PaperPluginManagerImpl.java:114) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.disablePlugin(SimplePluginManager.java:550) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:206) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:30:15] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[23:30:15] [Server thread/INFO]: [EC] Enabling EterniumCore v1.0-test-1
+[23:30:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ec [1.0-test-1]
+[23:30:15] [Server thread/INFO]: [EC] Nueva versión detectada: 1.0-test-1 (anterior: )
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: lang en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: UseDatabase en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: Database en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: mysql en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: tph_message en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: msg_command en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: helpop_command en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: ops-color-name en config.yml
+[23:30:15] [Server thread/INFO]: [EC] Añadido path faltante: auto-afk en config.yml
+[23:30:15] [Server thread/INFO]: [EC] config.yml actualizado correctamente.
+[23:30:15] [Server thread/INFO]: [EC] Creado recurso faltante: lang/en_EN.yml
+[23:30:15] [Server thread/ERROR]: Error occurred while enabling EterniumCore v1.0-test-1 (Is it up to date?)
+java.lang.IllegalArgumentException: The embedded resource 'data/example_file.yml' cannot be found in plugins/.paper-remapped/EterniumCore-1.0.0-b1.jar
+	at org.bukkit.plugin.java.JavaPlugin.saveResource(JavaPlugin.java:215) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.utils.FileUpdater.checkAndCreate(FileUpdater.java:63) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.utils.FileUpdater.updateAll(FileUpdater.java:88) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.utils.FileUpdater.checkVersion(FileUpdater.java:102) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.Main.onEnable(Main.java:92) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:288) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:640) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:589) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:754) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:516) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:329) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1215) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.jar:1.21-130-b1b5d4c]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+[23:30:15] [Server thread/INFO]: [EC] Disabling EterniumCore v1.0-test-1
+[23:30:15] [Server thread/INFO]: [EC] [✘] Modules desactivated on correctly!
+[23:30:15] [Server thread/INFO]: [EC] [✘] Economy shut down correctly!
+[23:30:15] [Server thread/INFO]: [EC]
+[23:30:15] [Server thread/INFO]: [EC] ███████╗ █████╗  █████╗ ██████╗ ███████╗
+[23:30:15] [Server thread/INFO]: [EC] ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
+[23:30:15] [Server thread/INFO]: [EC] █████╗  ██║  ╚═╝██║  ██║██████╔╝█████╗
+[23:30:15] [Server thread/INFO]: [EC] ██╔══╝  ██║  ██╗██║  ██║██╔══██╗██╔══╝
+[23:30:15] [Server thread/INFO]: [EC] ███████╗╚█████╔╝╚█████╔╝██║  ██║███████╗
+[23:30:15] [Server thread/INFO]: [EC] ╚══════╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚══════╝
+[23:30:15] [Server thread/INFO]: [EC] (It has been successfully deactivated!)
+[23:30:15] [Server thread/INFO]: [EC]
+[23:30:15] [Server thread/INFO]: [EC] » Version: 1.0-test-1
+[23:30:15] [Server thread/INFO]: [EC] » Developers: [Zxmass, SxbxsMC, CheastOG]
+[23:30:15] [Server thread/INFO]: [EC] » Powered by: Eternium Studios
+[23:30:15] [Server thread/INFO]: [EC]
+[23:30:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[23:30:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[23:30:15] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[23:30:15] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[23:30:15] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[23:30:15] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[23:30:15] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
+[23:30:15] [Server thread/INFO]: [spark] Starting background profiler...
+[23:30:16] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[23:30:16] [Server thread/INFO]: Done preparing level "world" (5.009s)
+[23:30:16] [Server thread/INFO]: Running delayed init tasks
+[23:30:16] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[23:30:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[23:30:16] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] Checking for Updates ... 
+[23:30:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[23:30:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[23:30:16] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[23:30:16] [Server thread/INFO]: Done (23.267s)! For help, type "help"
+[23:30:16] [Server thread/INFO]: Timings Reset
+[23:30:16] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.1.1
+[23:30:16] [Craft Scheduler Thread - 1 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[23:30:16] [Craft Scheduler Thread - 0 - Vault/INFO]: [Vault] No new version available
