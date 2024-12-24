@@ -1,12 +1,17 @@
-############################################################
-# +------------------------------------------------------+ #
-# |                      MOTD MODULE                     | #
-# +------------------------------------------------------+ #
-############################################################
-
-settings:
-  motd-module:
-    line-1: "              &#FDADAD☁ &#FF1B4C&lS&#FF2B57&lE&#FF3B62&lR&#FE4C6C&lV&#FE5C77&lE&#FE6C82&lR&#FE7C8D&lN&#FD8D97&lA&#FD9DA2&lM&#FDADAD&lE &#FDADAD[1.20x]"
-    line-2: "              &7¡Welcome To Servername!"
-    icon-server:
-      - "icon-server.png"
+!!org.yaml.snakeyaml.nodes.MappingNode
+anchor: null
+blockComments: null
+endComments: null
+endMark: {
+  }
+flowStyle: BLOCK
+inLineComments: null
+merged: false
+tag: {
+  }
+twoStepsConstruction: false
+type: {
+  }
+value:
+- {
+  }

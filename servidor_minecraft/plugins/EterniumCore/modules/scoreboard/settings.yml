@@ -1,45 +1,17 @@
-############################################################
-# +------------------------------------------------------+ #
-# |                 SCOREBOARD MODULE                    | #
-# +------------------------------------------------------+ #
-############################################################
-
-settings:
-  scoreboard-module:
-    enabled: true
-    refresh: 20
-    title: "&#ff1b4c&lMODULE SB"
-    lines:
-      - "<example.anim>"
-      - ""
-      - "&8| &7✎ &#ff1b4cUser: &7%ec_playername%"
-      - "&8| &7● &#ff1b4cRank: &7%vault_rank%"
-      - "&8| &7⛁ &#ff1b4cMoney: &7$%vault_eco_balance_formatted%"
-      - ""
-      - "&8| &7● &#ff1b4cLevel: &7%alonsolevels_level%"
-      - "&8| &7● &#ff1b4cIP: &7mc.servername.net"
-      - ""
-      - "<example.anim>"
-
-  ############################################################
-  # +------------------------------------------------------+ #
-  # |               PER WORLD - SCOREBOARD'S               | #
-  # +------------------------------------------------------+ #
-  ############################################################
-
-  scoreboard-per-world:
-    exampleScoreboard:
-      enabled: true
-      refresh: 20
-      title: "&#FF1B4C&lMODULE SB PER-WORLD"
-      lines:
-        - "<example.anim>"
-        - ""
-        - "&71. Line"
-        - "&72. Line"
-        - "&73. Line"
-        - "&74. Line"
-        - "&75. Line"
-        - ""
-        - "<example.anim>"
-      world: exampleWorld # Here should be the name of the world that you want to show the Scoreboard
+!!org.yaml.snakeyaml.nodes.MappingNode
+anchor: null
+blockComments: null
+endComments: null
+endMark: {
+  }
+flowStyle: BLOCK
+inLineComments: null
+merged: false
+tag: {
+  }
+twoStepsConstruction: false
+type: {
+  }
+value:
+- {
+  }

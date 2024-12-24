@@ -1,48 +1,17 @@
-############################################################
-# +------------------------------------------------------+ #
-# |                     TAB MODULE                       | #
-# +------------------------------------------------------+ #
-############################################################
-
-settings:
-  tab-module:
-    enabled: true
-    refresh: 20
-    header:
-      - "<example.anim>"
-      - ""
-      - "&#ff1b4c&lMODULE TAB"
-      - "&8(Hi, %ec_playername%&8)"
-      - ""
-      - "&7Enjoy the server"
-      - ""
-    footer:
-      - ""
-      - "&9Discord: &fdiscord.gg/exmapleInvite"
-      - ""
-      - "<example.anim>"
-
-  ############################################################
-  # +------------------------------------------------------+ #
-  # |                  PER WORLD - TAB'S                   | #
-  # +------------------------------------------------------+ #
-  ############################################################
-
-  tab-per-world:
-    exampleTab: # The name of the TAB should go here. But you cannot have more than 1 TAB with the same name.
-      enabled: true
-      refresh: 20
-      header:
-        - "<example.anim>"
-        - ""
-        - "&#FF1B4CMODULE TAB PER WORLD"
-        - "&8(Hi, %ec_playername%&8)"
-        - ""
-        - "&7Welcome to the ExampleWorld"
-        - ""
-      footer:
-        - ""
-        - "&9Discord: &fdiscord.gg/exmapleInvite"
-        - ""
-        - "<example.anim>"
-      world: exampleWorld # Here should be the name of the world that you want to show the TAB
+!!org.yaml.snakeyaml.nodes.MappingNode
+anchor: null
+blockComments: null
+endComments: null
+endMark: {
+  }
+flowStyle: BLOCK
+inLineComments: null
+merged: false
+tag: {
+  }
+twoStepsConstruction: false
+type: {
+  }
+value:
+- {
+  }
