@@ -1,8 +1,8 @@
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |                    Introduction                      | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 
 # The EterniumCore plugin is a better alternative to EssentialsX/CMI
 # where you can find several modules such as:
@@ -18,11 +18,11 @@
 # 1- https://www.spigotmc.org/threads/eterniumcore.649753/
 # 2- https://www.eterniumst.com/plugins/EterniumCore/
 
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |                       Languages                      | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |            List of available languages:              | #
 # |                                                      | #
@@ -39,17 +39,17 @@
 # | · zh_CN (Chinese) (simplified)                       | #
 # | · zh_HK (Chinese) (traditional)                      | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 
 # If you choose a language that is not
 # in this list, an error will occur in the console
-lang: en_EN
+lang: es_ES
 
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |                  MySQL DB or SQL DB                  | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 
 # You can toggle "UseDatabase:" to "true" or "false".
 # You can toggle the "Database:" to "mysql" or "sql"
@@ -63,7 +63,7 @@ UseDatabase: false
 Database: mysql
 
 # SQL Database
-#sql:
+# sql:
 # dbip: 127.0.0.1
 # port: 3306
 # dbname: eterniumcore_db
@@ -78,66 +78,66 @@ mysql:
   username: root
   password: pass
 
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |                    Main - Commands                   | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 
 # Shows the command list for the /tph command
 tph_message:
-  - ''
-  - '&8&l|              &#ff1b4cTeleport &8- &#ff1b4cCommands'
-  - ''
-  - '&8&l| &#ff1b4c/tp &#a01130<player> &8- &7Teleports you to a player.'
-  - '&8&l| &#ff1b4c/tp2p &#a01130<player> [otherPlayer] &8- &7Teleports one player to
+- ''
+- '&8&l|              &#ff1b4cTeleport &8- &#ff1b4cCommands'
+- ''
+- '&8&l| &#ff1b4c/tp &#a01130<player> &8- &7Teleports you to a player.'
+- '&8&l| &#ff1b4c/tp2p &#a01130<player> [otherPlayer] &8- &7Teleports one player to
   another.'
-  - '&8&l| &#ff1b4c/tpa &#a01130<player> &8- &7Request teleportation from a player.'
-  - '&8&l| &#ff1b4c/tpaccept &#a01130[player | *] &8- &7Accept a teleport request.'
-  - '&8&l| &#ff1b4c/tpdeny &#a01130[player | *] &8- &7Reject a teleport request.'
-  - '&8&l| &#ff1b4c/tpacancel &#a01130<player> &8- &7Cancel a teleport request.'
-  - '&8&l| &#ff1b4c/tptoggle &#a01130<on | off> &8- &7Enable or disable teleport requests.'
-  - '&8&l| &#ff1b4c/tpauto &#a01130<on | off> &8- &7Enable or disable automatic acceptance
+- '&8&l| &#ff1b4c/tpa &#a01130<player> &8- &7Request teleportation from a player.'
+- '&8&l| &#ff1b4c/tpaccept &#a01130[player | *] &8- &7Accept a teleport request.'
+- '&8&l| &#ff1b4c/tpdeny &#a01130[player | *] &8- &7Reject a teleport request.'
+- '&8&l| &#ff1b4c/tpacancel &#a01130<player> &8- &7Cancel a teleport request.'
+- '&8&l| &#ff1b4c/tptoggle &#a01130<on | off> &8- &7Enable or disable teleport requests.'
+- '&8&l| &#ff1b4c/tpauto &#a01130<on | off> &8- &7Enable or disable automatic acceptance
   of requests.'
-  - '&8&l| &#ff1b4c/tppos &#a01130<x> <y> <z> [yaw] [pitch] [world] &8- &7Teleport to
+- '&8&l| &#ff1b4c/tppos &#a01130<x> <y> <z> [yaw] [pitch] [world] &8- &7Teleport to
   a specific position or world.'
-  - '&8&l| &#ff1b4c/tprandom &#a01130[player] [world] &8- &7Teleports you randomly.'
-  - '&8&l| &#ff1b4c/tphere &8- &7Teleport all players towards you.'
-  - '&8&l| &#ff1b4c/tph &8- &7Show this message.'
-  - '&8&l| '
-  - '&8&l| &#ff1b4c[] &8= &7Optional'
-  - '&8&l| &#ff1b4c<> &8= &7Mandatory'
-  - '&8&l| &#ff1b4c[<>] &8= &7Optional or Mandatory'
+- '&8&l| &#ff1b4c/tprandom &#a01130[player] [world] &8- &7Teleports you randomly.'
+- '&8&l| &#ff1b4c/tphere &8- &7Teleport all players towards you.'
+- '&8&l| &#ff1b4c/tph &8- &7Show this message.'
+- '&8&l| '
+- '&8&l| &#ff1b4c[] &8= &7Optional'
+- '&8&l| &#ff1b4c<> &8= &7Mandatory'
+- '&8&l| &#ff1b4c[<>] &8= &7Optional or Mandatory'
 
 # Here the format of what the /msg command message looks like will be shown.
 msg_command:
-  send: "&8[&#FF1B4C✉&8] &7[&#FF1B4CYou &8→ &#FF1B4C{player}&7] &8» &f{message}"
-  recive: "&8[&#FF1B4C✉&8] &7[&#FF1B4C{player} &8→ &#FF1B4CYou&7] &8» &f{message}"
+  send: '&8[&#FF1B4C✉&8] &7[&#FF1B4CYou &8→ &#FF1B4C{player}&7] &8» &f{message}'
+  recive: '&8[&#FF1B4C✉&8] &7[&#FF1B4C{player} &8→ &#FF1B4CYou&7] &8» &f{message}'
 
 # The message when the /helpop mbox command is executed will be displayed here
 helpop_command:
-  - ""
-  - "&8&l| &8[ &#FF1B4C&lMBOX MESSAGES &8 ]"
-  - ""
-  - "&8&l| &#FF1B4C⌚ Date:"
-  - "&8&l| &7➥ &f{date}"
-  - ""
-  - "&8&l| &#FF1B4C✎ Message:"
-  - "&8&l| &7➥ &f{message}"
-  - ""
-  - " &8[{reply}&8]{separator}&8[{delete}&8]"
-  - ""
+- ''
+- '&8&l| &8[ &#FF1B4C&lMBOX MESSAGES &8 ]'
+- ''
+- '&8&l| &#FF1B4C⌚ Date:'
+- '&8&l| &7➥ &f{date}'
+- ''
+- '&8&l| &#FF1B4C✎ Message:'
+- '&8&l| &7➥ &f{message}'
+- ''
+- ' &8[{reply}&8]{separator}&8[{delete}&8]'
+- ''
 
-############################################################
+# ###########################################################
 # +------------------------------------------------------+ #
 # |                  Main - Essentials                   | #
 # +------------------------------------------------------+ #
-############################################################
+# ###########################################################
 
 # This color will only be displayed if the player is an operator.
 # You can run /colors to see a list of color codes available in Minecraft
 # as well as some RGB color recommendations.
-ops-color-name: "&4"
+ops-color-name: '&4'
 
 # This will be the time that must pass for the user to be in AFK mode.
 # 20 Ticks = 1s - Visit: https://www.reimaginednetwork.net/minecrafttickcalculator
@@ -145,9 +145,9 @@ ops-color-name: "&4"
 # If you put -1, the AFK system will be disabled
 auto-afk: 6000 # 6000 = 5min
 
-estepathesdeprueba: "aasdasd"
+estepathesdeprueba: aasdasd
 asd:
   dasdasd: true
   dasdassd:
-    - "asdasd"
-    - "asdasd"
+  - asdasd
+  - asdasd
