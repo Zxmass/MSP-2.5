@@ -265,4 +265,41 @@ xp_cmd_reset_no_exp: "&7El jugador &c{player} no tiene &7suficiente experiencia 
 xp_cmd_reset_no_level: "&7El jugador &c{player} no tiene &7suficiente niveles para &creiniciar&7."
 xp_cmd_reset_incorrect_args: "&7Elige entre: &c'exp' &7o &c'level'&7."
 xp_cmd_reset_incorrect_usage: "&7Uso incorrecto. Usa: &c/xp reset <player> <xp | levels>"
+
+# ADASD
+
+# ADASD
+ASDASD: "SADASD"
+
 xp_cmd_reset_success: "&7Se ha &ereiniciado &7el &e{type} &7del jugador &e{player}&7."
+
+# SADASDA
+
+# SADASDA
+ADS: "ASDASD"
+# Mensajes (es_ES)
+# traducido por: Zxmass
+
+# GENERAL
+
+# COMPLEMENTOS EXTRAS
+
+# LENGUAJE
+
+# COMANDOS
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

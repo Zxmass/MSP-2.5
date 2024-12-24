@@ -1,13 +1,34 @@
 rules-config:
   enabled: true
   message:
+  categorys:
+    list:
+      #- example
+      # ⇽ here you can add more categories
+
+# Here you have to add the structure of your
+# category, which are "enabled" and "message".
+hacks:
+  enabled: true
+  message:
+
+chat:
+  enabled: true
+  message:
+
+#example:
+#  enabled: false
+#  message:
+#    - "&#ff1b4cExmaple Rules List:"
+#    - "&7- Line 1"
+#    - "&7- Line 2"
+#    - "&7- Line 3"
+#    - "&7- Line 4"
     - "&#ff1b4cGeneral Rules List:"
     - "&7- No Spam"
     - "&7- No Grift"
     - "&7- No Links"
     - "&7- More &#ff1b4c4+"
-  categorys:
-    list:
       - hacks
       - chat
       #- example
@@ -15,18 +36,12 @@ rules-config:
 
 # Here you have to add the structure of your
 # category, which are "enabled" and "message".
-hacks:
-  enabled: true # you can toggle it to "true" or "false"
-  message:
     - "&#ff1b4cGeneral Rules List (Hacks):"
     - "&7- No Scripts"
     - "&7- No Macros"
     - "&7- No Mods (Malicious)"
     - "&7- No Plugins (Malicious)"
 
-chat:
-  enabled: true
-  message:
     - "&#ff1b4cGeneral Rules List (Chat):"
     - "&7- No Insults"
     - "&7- No Politics"

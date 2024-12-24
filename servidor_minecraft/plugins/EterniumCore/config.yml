@@ -86,6 +86,119 @@ mysql:
 
 # Shows the command list for the /tph command
 tph_message:
+
+# Here the format of what the /msg command message looks like will be shown.
+msg_command:
+  send: "&8[&#FF1B4C✉&8] &7[&#FF1B4CYou &8→ &#FF1B4C{player}&7] &8» &f{message}"
+  recive: "&8[&#FF1B4C✉&8] &7[&#FF1B4C{player} &8→ &#FF1B4CYou&7] &8» &f{message}"
+
+# The message when the /helpop mbox command is executed will be displayed here
+helpop_command:
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  Main - Essentials                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# This color will only be displayed if the player is an operator.
+# You can run /colors to see a list of color codes available in Minecraft
+# as well as some RGB color recommendations.
+ops-color-name: "&4"
+
+#D ASD ASD ASD
+
+#D ASD ASD ASD
+ADASD: "ASDASD"
+
+# This will be the time that must pass for the user to be in AFK mode.
+# 20 Ticks = 1s - Visit: https://www.reimaginednetwork.net/minecrafttickcalculator
+# to calculate "Ticks" to Seconds, Minutes, Hours, Days or Years.
+# If you put -1, the AFK system will be disabled
+auto-afk: 6000 # 6000 = 5min
+
+# Otro
+
+# Otro
+ASD: "DASDASD"
+############################################################
+# +------------------------------------------------------+ #
+# |                    Introduction                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The EterniumCore plugin is a better alternative to EssentialsX/CMI
+# where you can find several modules such as:
+# · Chat
+# · Scoreboard
+# · Tab
+# · Moderation
+# · Etc...
+# It has several plugins in one to make it easier and save time configuring
+# plugin by plugin with EterniumCore it will be different.
+# - Easy, Fast and Simple to program -
+# Leave us a review of the plugin at:
+# 1- https://www.spigotmc.org/threads/eterniumcore.649753/
+# 2- https://www.eterniumst.com/plugins/EterniumCore/
+
+############################################################
+# +------------------------------------------------------+ #
+# |                       Languages                      | #
+# +------------------------------------------------------+ #
+############################################################
+# +------------------------------------------------------+ #
+# |            List of available languages:              | #
+# |                                                      | #
+# | · de_DE (German)                                     | #
+# | · en_EN (English) (default)                          | #
+# | · es_ES (Spanish)                                    | #
+# | · fr_FR (French)                                     | #
+# | · it_IT (Italian)                                    | #
+# | · ja_JP (Japanese)                                   | #
+# | · ko_KR (Korean)                                     | #
+# | · pt_BR (Brazil)                                     | #
+# | · ru_RU (Russian)                                    | #
+# | · vi_VN (Vietnamese)                                 | #
+# | · zh_CN (Chinese) (simplified)                       | #
+# | · zh_HK (Chinese) (traditional)                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# If you choose a language that is not
+# in this list, an error will occur in the console
+
+############################################################
+# +------------------------------------------------------+ #
+# |                  MySQL DB or SQL DB                  | #
+# +------------------------------------------------------+ #
+############################################################
+
+# You can toggle "UseDatabase:" to "true" or "false".
+# You can toggle the "Database:" to "mysql" or "sql"
+# [ What is MySQL used for? ]
+# - MySQL is a database system from Oracle that is used around the world to manage databases.
+# It is based on relational algebra and is mainly used for data storage
+# [ What is SQL used for? ]
+# - SQL stands for Structured Query Language, it is a programming language
+# designed to update, obtain, and calculate information in relational databases.
+
+# SQL Database
+#sql:
+# dbip: 127.0.0.1
+# port: 3306
+# dbname: eterniumcore_db
+# user: root
+# password: pass
+
+# MySQL Database
+
+############################################################
+# +------------------------------------------------------+ #
+# |                    Main - Commands                   | #
+# +------------------------------------------------------+ #
+############################################################
+
+# Shows the command list for the /tph command
   - ''
   - '&8&l|              &#ff1b4cTeleport &8- &#ff1b4cCommands'
   - ''
@@ -110,12 +223,8 @@ tph_message:
   - '&8&l| &#ff1b4c[<>] &8= &7Optional or Mandatory'
 
 # Here the format of what the /msg command message looks like will be shown.
-msg_command:
-  send: "&8[&#FF1B4C✉&8] &7[&#FF1B4CYou &8→ &#FF1B4C{player}&7] &8» &f{message}"
-  recive: "&8[&#FF1B4C✉&8] &7[&#FF1B4C{player} &8→ &#FF1B4CYou&7] &8» &f{message}"
 
 # The message when the /helpop mbox command is executed will be displayed here
-helpop_command:
   - ""
   - "&8&l| &8[ &#FF1B4C&lMBOX MESSAGES &8 ]"
   - ""
@@ -137,10 +246,8 @@ helpop_command:
 # This color will only be displayed if the player is an operator.
 # You can run /colors to see a list of color codes available in Minecraft
 # as well as some RGB color recommendations.
-ops-color-name: "&4"
 
 # This will be the time that must pass for the user to be in AFK mode.
 # 20 Ticks = 1s - Visit: https://www.reimaginednetwork.net/minecrafttickcalculator
 # to calculate "Ticks" to Seconds, Minutes, Hours, Days or Years.
 # If you put -1, the AFK system will be disabled
-auto-afk: 6000 # 6000 = 5min

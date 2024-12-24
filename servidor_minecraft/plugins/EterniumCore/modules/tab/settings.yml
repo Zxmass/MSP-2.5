@@ -6,21 +6,11 @@
 
 settings:
   tab-module:
-    enabled: true
-    refresh: 20
-    header:
-      - "<example.anim>"
-      - ""
-      - "&#ff1b4c&lMODULE TAB"
-      - "&8(Hi, %ec_playername%&8)"
-      - ""
-      - "&7Enjoy the server"
-      - ""
-    footer:
-      - ""
-      - "&9Discord: &fdiscord.gg/exmapleInvite"
-      - ""
-      - "<example.anim>"
+      enabled: true
+      refresh: 20
+      header:
+      footer:
+        - "&9Discord: &fdiscord.gg/exmapleInvite"
 
   ############################################################
   # +------------------------------------------------------+ #
@@ -33,6 +23,32 @@ settings:
       enabled: true
       refresh: 20
       header:
+      footer:
+        - "&9Discord: &fdiscord.gg/exmapleInvite"
+      world: exampleWorld # Here should be the name of the world that you want to show the TAB
+############################################################
+# +------------------------------------------------------+ #
+# |                     TAB MODULE                       | #
+# +------------------------------------------------------+ #
+############################################################
+
+      - "<example.anim>"
+      - ""
+      - "&#ff1b4c&lMODULE TAB"
+      - "&8(Hi, %ec_playername%&8)"
+      - ""
+      - "&7Enjoy the server"
+      - ""
+      - ""
+      - ""
+      - "<example.anim>"
+
+  ############################################################
+  # +------------------------------------------------------+ #
+  # |                  PER WORLD - TAB'S                   | #
+  # +------------------------------------------------------+ #
+  ############################################################
+
         - "<example.anim>"
         - ""
         - "&#FF1B4CMODULE TAB PER WORLD"
@@ -40,9 +56,6 @@ settings:
         - ""
         - "&7Welcome to the ExampleWorld"
         - ""
-      footer:
         - ""
-        - "&9Discord: &fdiscord.gg/exmapleInvite"
         - ""
         - "<example.anim>"
-      world: exampleWorld # Here should be the name of the world that you want to show the TAB
