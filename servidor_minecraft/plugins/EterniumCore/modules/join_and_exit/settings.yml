@@ -1,0 +1,30 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                 JOIN AND EXIT MODULE                 | #
+# +------------------------------------------------------+ #
+############################################################
+
+settings:
+  first-join-message:
+    enabled: true
+    message: "&8[&e+&8] &f%ec_playername% &eFirst Join &7to Server"
+    screen-message:
+      title: "&#ff1b4c&lWELCOME"
+      subtitle: "&7%ec_playername%"
+      fadeIn: 10
+      stay: 70
+      fadeOut: 20
+
+  join-message:
+    enabled: true
+    message: "&8[&a+&8] &f%ec_playername% &aJoin &7to Server"
+    screen-message:
+      title: "&#ff1b4c&lWELCOME AGAIN"
+      subtitle: "&7%ec_playername%"
+      fadeIn: 10
+      stay: 70
+      fadeOut: 20
+
+  exit-message:
+    enabled: true
+    message: "&8[&c-&8] &f%ec_playername% &4Exit &7to Server"
