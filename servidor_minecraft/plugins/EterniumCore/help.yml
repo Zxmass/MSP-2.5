@@ -1,19 +1,26 @@
-!!org.yaml.snakeyaml.nodes.MappingNode
-anchor: null
-blockComments: null
-endComments: null
-endMark: {
-  }
-flowStyle: BLOCK
-inLineComments: null
-merged: false
-tag: {
-  }
-twoStepsConstruction: false
-type: {
-  }
-value:
-- {
-  }
-- {
-  }
+help-config:
+  enabled: true
+  # You cannot put more than 1 variable on a line
+  message:
+    - ""
+    - "&8&l| &8[ &#ff1b4c&lHELP MESSAGE &8]"
+    - ""
+    - "&8&l| &#ff1b4cRules {test-variable}"
+    - "&8&l| &#ff1b4cEC HELP {echelp}"
+    - ""
+  # Here are the variables you want to display
+  variables:
+    list:
+      - test-variable
+      - echelp
+
+# Each variable must be structured to work
+variables:
+  test-variable:
+    runcmd: /rules
+    text: "&7(Click to view)"
+    hover: "&7Here you can see the rules message"
+  echelp:
+    runcmd: /ec help
+    text: "&7(Click to view)"
+    hover: "&7Here you can see the commands of /ec help"
