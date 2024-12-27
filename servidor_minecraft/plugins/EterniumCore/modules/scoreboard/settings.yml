@@ -6,30 +6,10 @@
 
 settings:
   scoreboard-module:
-      enabled: true
-      refresh: 20
-      title: "&#FF1B4C&lMODULE SB PER-WORLD"
-      lines:
-
-  ############################################################
-  # +------------------------------------------------------+ #
-  # |               PER WORLD - SCOREBOARD'S               | #
-  # +------------------------------------------------------+ #
-  ############################################################
-
-  scoreboard-per-world:
-    exampleScoreboard:
-      enabled: true
-      refresh: 20
-      title: "&#FF1B4C&lMODULE SB PER-WORLD"
-      lines:
-      world: exampleWorld # Here should be the name of the world that you want to show the Scoreboard
-############################################################
-# +------------------------------------------------------+ #
-# |                 SCOREBOARD MODULE                    | #
-# +------------------------------------------------------+ #
-############################################################
-
+    enabled: true
+    refresh: 20
+    title: "&#ff1b4c&lMODULE SB"
+    lines:
       - "<example.anim>"
       - ""
       - "&8| &7✎ &#ff1b4cUser: &7%ec_playername%"
@@ -47,6 +27,12 @@ settings:
   # +------------------------------------------------------+ #
   ############################################################
 
+  scoreboard-per-world:
+    exampleScoreboard:
+      enabled: true
+      refresh: 20
+      title: "&#FF1B4C&lMODULE SB PER-WORLD"
+      lines:
         - "<example.anim>"
         - ""
         - "&71. Line"
@@ -56,3 +42,4 @@ settings:
         - "&75. Line"
         - ""
         - "<example.anim>"
+      world: exampleWorld # Here should be the name of the world that you want to show the Scoreboard
