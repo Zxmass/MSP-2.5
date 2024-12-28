@@ -1,0 +1,5 @@
+settings:
+  friends-system:
+    enabled: true
+    max-fiends: 20
+    max-bestfriends: 0
