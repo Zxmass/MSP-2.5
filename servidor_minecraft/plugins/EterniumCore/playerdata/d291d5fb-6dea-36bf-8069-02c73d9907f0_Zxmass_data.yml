@@ -1,0 +1,5 @@
+money: 1000.0
+friends-system:
+  friends: []
+  bestfriends: []
+  blockeds: []
