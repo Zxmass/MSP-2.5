@@ -23,5 +23,17 @@
     },
     "done": true
   },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2024-12-30 02:51:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_glazed_terracotta": {
+    "criteria": {
+      "has_white_terracotta": "2024-12-30 03:32:56 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3953
 }

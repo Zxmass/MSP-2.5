@@ -1,5 +1,6 @@
-money: 1000.0
+money: 0.0
 friends-system:
   friends: []
   bestfriends: []
-  blockeds: []
+  blockeds:
+  - daebc46b-4c7d-342f-ba57-b07fc7084e29

@@ -1,5 +1,6 @@
 settings:
   friends-system:
     enabled: true
-    max-fiends: 20
+    max-friends: 10
     max-bestfriends: 5
+    request-time: 1m
