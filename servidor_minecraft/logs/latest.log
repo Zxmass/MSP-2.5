@@ -285,3 +285,578 @@
 [23:36:55] [Server thread/INFO]: Zxmass issued server command: /ec reload
 [23:36:55] [Server thread/INFO]: [EC] [●] Database disabled
 [23:36:56] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:37:06] [Server thread/INFO]: Zxmass issued server command: /msg Zxmass XD
+[23:37:09] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:37:11] [Server thread/INFO]: Zxmass issued server command: /friend bestfriend Zxmass
+[23:37:17] [Server thread/INFO]: Zxmass issued server command: /friend list
+[23:37:24] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:38:24] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:38:27] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
+[23:38:35] [Server thread/INFO]: Zxmass issued server command: /friend list
+[23:38:39] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:39:03] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:39:16] [Server thread/INFO]: Zxmass issued server command: /friend list
+[23:39:18] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:40:39] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:40:44] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:40:44] [Server thread/INFO]: [EC] [●] Database disabled
+[23:40:45] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:40:54] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:40:54] [Server thread/INFO]: [EC] [●] Database disabled
+[23:40:55] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:41:18] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:19] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:20] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '-'
+ in 'reader', line 6, column 1:
+    - d291d5fb-6dea-36bf-8069-02c73d ... 
+    ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:21] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:22] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:23] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:24] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:25] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:26] [Server thread/ERROR]: Cannot load plugins/EterniumCore/playerdata/d291d5fb-6dea-36bf-8069-02c73d9907f0_Zxmass_data.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:111) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:309) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.loadFromFile(EconomyService.java:85) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.economy.EconomyService.getBalance(EconomyService.java:117) ~[EterniumCore-1.0.0-b1.jar:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.getBalance(EconomyHook.java:38) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.EconomyHook.onRequest(EconomyHook.java:101) ~[?:?]
+	at at.helpch.placeholderapi.expansion.vault.VaultExpansion.onRequest(VaultExpansion.java:69) ~[?:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.replacer.CharsReplacer.apply(CharsReplacer.java:119) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:71) ~[PlaceholderAPI-2.11.6.jar:?]
+	at PlaceholderAPI-2.11.6.jar/me.clip.placeholderapi.PlaceholderAPI.setPlaceholders(PlaceholderAPI.java:99) ~[PlaceholderAPI-2.11.6.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.formatPlaceholders(ScoreboardModule.java:251) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateScoreboard(ScoreboardModule.java:237) ~[EterniumCore-1.0.0-b1.jar:?]
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.modules.ScoreboardModule.updateTick(ScoreboardModule.java:60) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:86) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:475) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1726) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 1, column 1:
+    money: 0.0
+    ^
+expected <block end>, but found '<block sequence start>'
+ in 'reader', line 5, column 2:
+     - d291d5fb-6dea-36bf-8069-02c73d ... 
+     ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:654) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:330) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:104) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 22 more
+[23:41:31] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:41:31] [Server thread/INFO]: [EC] [●] Database disabled
+[23:41:33] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:41:36] [Server thread/INFO]: Zxmass issued server command: /friend list friends 2
+[23:41:39] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:41:41] [Server thread/INFO]: Zxmass issued server command: /friend list friends 2
+[23:41:45] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:41:46] [Server thread/INFO]: Zxmass issued server command: /friend remove Zxmass
+[23:41:48] [Server thread/INFO]: Zxmass issued server command: /friend list friends 2
+[23:41:49] [Server thread/INFO]: Zxmass issued server command: /friend list
+[23:41:55] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:42:24] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:42:24] [Server thread/INFO]: [EC] [●] Database disabled
+[23:42:25] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:42:28] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:42:28] [Server thread/INFO]: [EC] [●] Database disabled
+[23:42:29] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:42:33] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:45:20] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:45:20] [Server thread/INFO]: [EC] [●] Database disabled
+[23:45:21] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:45:30] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:45:30] [Server thread/INFO]: [EC] [●] Database disabled
+[23:45:31] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
+[23:46:54] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
