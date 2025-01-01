@@ -1,175 +1,149 @@
-[06:46:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[06:46:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[06:46:10] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[06:46:10] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Remapping server...
-[06:46:17] [Paper Plugin Remapper Thread - 0/INFO]: [ReobfServer] Done remapping server in 6283ms.
-[06:46:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/Multiverse-Core-4.3.1.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/NametagEdit.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar' in 356ms.
-[06:46:17] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/PluginManager.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/NametagEdit.jar' in 381ms.
-[06:46:17] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/Vault.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Multiverse-Core-4.3.1.jar' in 499ms.
-[06:46:17] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins/PlugManX-2.4.1.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Vault.jar' in 135ms.
-[06:46:17] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Remapping plugin 'plugins/item-nbt-api-plugin-2.14.1.jar'...
-[06:46:17] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PluginManager.jar' in 237ms.
-[06:46:17] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlaceholderAPI-2.11.6.jar' in 638ms.
-[06:46:18] [Paper Plugin Remapper Thread - 4/INFO]: [PluginRemapper] Done remapping plugin 'plugins/item-nbt-api-plugin-2.14.1.jar' in 282ms.
-[06:46:18] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins/PlugManX-2.4.1.jar' in 531ms.
-[06:46:18] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
-[06:46:18] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
+[07:38:25] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[07:38:25] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[07:38:26] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[07:38:26] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar'...
+[07:38:27] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar' in 639ms.
+[07:38:27] [ServerMain/INFO]: [PluginInitializerManager] Initialized 13 plugins
+[07:38:27] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (13):
  - EterniumCore (1.0.0-b1), LuckPerms (5.4.146), Multiverse-Core (4.3.1-b861), NBTAPI (2.14.1), NametagEdit (4.5.24), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PluginManager (2.8.1), ProtocolLib (5.3.0), Vault (1.7.3-b131), ViaBackwards (5.1.1), ViaRewind (4.0.3), ViaVersion (5.1.1)
-[06:46:22] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[06:46:23] [ServerMain/INFO]: Loaded 1290 recipes
-[06:46:24] [ServerMain/INFO]: Loaded 1399 advancements
-[06:46:24] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[06:46:24] [Server thread/INFO]: Loading properties
-[06:46:24] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[06:46:25] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[06:46:25] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[06:46:25] [Server thread/INFO]: Using 4 threads for Netty based IO
-[06:46:26] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[06:46:26] [Server thread/INFO]: Default game type: SURVIVAL
-[06:46:26] [Server thread/INFO]: Generating keypair
-[06:46:26] [Server thread/INFO]: Starting Minecraft server on *:25565
-[06:46:26] [Server thread/INFO]: Using epoll channel type
-[06:46:26] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[06:46:26] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[06:46:28] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[06:46:28] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[06:46:29] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[06:46:30] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[06:46:30] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[06:46:30] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[06:46:32] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[06:46:32] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[06:46:32] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[06:46:32] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[06:46:32] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.24
-[06:46:32] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[06:46:32] [Server thread/INFO]: [EC] Loading server plugin EterniumCore v1.0.0-b1
-[06:46:32] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[06:46:32] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
-[06:46:32] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[06:46:32] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[06:46:32] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[06:46:33] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.1
-[06:46:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[06:46:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[06:46:33] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[06:46:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[06:46:33] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[06:46:33] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[06:46:33] [Server thread/INFO]:         __    
-[06:46:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[06:46:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[06:46:33] [Server thread/INFO]: 
-[06:46:33] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[06:46:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[06:46:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[06:46:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[06:46:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1182ms)
-[06:46:34] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[06:46:34] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[06:46:34] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[06:46:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[06:46:34] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[06:46:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[06:46:34] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[06:46:34] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[06:46:34] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[06:46:34] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[06:46:34] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[06:46:34] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[06:46:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[06:46:35] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06:46:35] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[06:46:35] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06:46:35] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[06:46:35] [Server thread/INFO]: Preparing level "world"
-[06:46:35] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[06:46:36] [Server thread/INFO]: Time elapsed: 1085 ms
-[06:46:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[06:46:36] [Server thread/INFO]: Time elapsed: 202 ms
-[06:46:36] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[06:46:36] [Server thread/INFO]: Time elapsed: 151 ms
-[06:46:36] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[06:46:36] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[06:46:36] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[06:46:37] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[06:46:37] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.24
-[06:46:37] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_21_1
-[06:46:37] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
-[06:46:37] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[06:46:37] [Server thread/INFO]: [EC] Enabling EterniumCore v1.0.0-b1
-[06:46:37] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ec [1.0.0-b1]
-[06:46:37] [Server thread/INFO]: [EC] [●] Database disabled
-[06:46:37] [Server thread/INFO]: [EC] [✔] LuckPerms found!
-[06:46:37] [Server thread/INFO]: [EC] [✔] PlaceholderAPI found!
-[06:46:37] [Server thread/INFO]: [EC] [✔] ProtocolLib found!
-[06:46:38] [Server thread/INFO]: [EC] [✔] Vault found!
-[06:46:38] [Server thread/INFO]: [EC]
-[06:46:38] [Server thread/INFO]: [EC] [✔] Modules activated on correctly!
-[06:46:38] [Server thread/INFO]: [EC] [✔] Economy started correctly!
-[06:46:38] [Server thread/INFO]: [EC]
-[06:46:38] [Server thread/INFO]: [EC] ███████╗ █████╗  █████╗ ██████╗ ███████╗
-[06:46:38] [Server thread/INFO]: [EC] ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
-[06:46:38] [Server thread/INFO]: [EC] █████╗  ██║  ╚═╝██║  ██║██████╔╝█████╗
-[06:46:38] [Server thread/INFO]: [EC] ██╔══╝  ██║  ██╗██║  ██║██╔══██╗██╔══╝
-[06:46:38] [Server thread/INFO]: [EC] ███████╗╚█████╔╝╚█████╔╝██║  ██║███████╗
-[06:46:38] [Server thread/INFO]: [EC] ╚══════╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚══════╝
-[06:46:38] [Server thread/INFO]: [EC] (It has been activated successfully!)
-[06:46:38] [Server thread/INFO]: [EC]
-[06:46:38] [Server thread/INFO]: [EC] » Version: 1.0.0-b1
-[06:46:38] [Server thread/INFO]: [EC] » Developers: [Zxmass, SxbxsMC, CheastOG]
-[06:46:38] [Server thread/INFO]: [EC] » Powered by: Eternium Studios
-[06:46:38] [Server thread/INFO]: [EC]
-[06:46:38] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[06:46:38] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[06:46:38] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[06:46:38] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[06:46:38] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[06:46:38] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[06:46:38] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
-[06:46:38] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
-[06:46:38] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[06:46:38] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[06:46:38] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[06:46:38] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[06:46:40] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[06:46:40] [Server thread/INFO]: [spark] Starting background profiler...
-[06:46:40] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[06:46:40] [Server thread/INFO]: Done preparing level "world" (5.963s)
-[06:46:40] [Server thread/INFO]: Running delayed init tasks
-[06:46:40] [Server thread/INFO]: Done (31.835s)! For help, type "help"
-[06:46:41] [Server thread/INFO]: Timings Reset
-[06:46:41] [Craft Scheduler Thread - 3 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[06:46:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[06:46:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[06:46:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[06:46:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[06:46:41] [Server thread/INFO]: 3 placeholder hook(s) registered!
-[06:46:41] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.1.1
-[06:46:41] [Craft Scheduler Thread - 0 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[06:46:41] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[06:46:41] [Craft Scheduler Thread - 2 - EterniumCore/INFO]: [EC] Checking Updates...
-[06:46:41] [Craft Scheduler Thread - 2 - EterniumCore/INFO]: [EC] New update available: (3.3.0-b1). Download it at:
-[06:46:41] [Craft Scheduler Thread - 2 - EterniumCore/INFO]: [EC] https://www.spigotmc.org/resources/eterniumcore.117120/
-[06:46:48] [User Authenticator #0/INFO]: UUID of player Zxmass is d291d5fb-6dea-36bf-8069-02c73d9907f0
-[06:46:52] [Server thread/INFO]: Zxmass[/127.235.62.135:41619] logged in with entity id 91 at ([world]-55.516174753865315, 78.0, -14.609740669441594)
-[06:46:53] [Server thread/WARN]: [ca.spottedleaf.moonrise.patches.chunk_system.level.entity.EntityLookup] Entity uuid already exists: 08b3010a-0c45-4236-b85c-a54cdc743217, mapped to Spider['Spider'/104, uuid='08b3010a-0c45-4236-b85c-a54cdc743217', l='ServerLevel[world]', x=-64.00, y=16.00, z=-68.05, cpos=[-4, -5], tl=67, v=true], can't add Spider['Spider'/130, uuid='08b3010a-0c45-4236-b85c-a54cdc743217', l='ServerLevel[world]', x=-64.20, y=16.00, z=-67.94, cpos=[-5, -5], tl=78, v=false]
-[06:47:13] [Server thread/INFO]: Zxmass issued server command: /gmc
-[06:47:16] [Server thread/INFO]: Zxmass issued server command: /afk
-[06:47:16] [Server thread/INFO]: [!] [!]
-[06:47:20] [Server thread/INFO]: Zxmass issued server command: /configlang es_ES
-[06:47:23] [Server thread/INFO]: Zxmass issued server command: /afk
-[06:47:23] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
-[06:47:27] [Server thread/INFO]: Zxmass issued server command: /afk
-[06:47:27] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
-[06:47:31] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
-[06:48:07] [Server thread/INFO]: Zxmass issued server command: /friend list
-[06:48:09] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
-[06:50:06] [Server thread/INFO]: Zxmass lost connection: Timed out
+[07:38:31] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:38:33] [ServerMain/INFO]: Loaded 1290 recipes
+[07:38:33] [ServerMain/INFO]: Loaded 1399 advancements
+[07:38:33] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[07:38:33] [Server thread/INFO]: Loading properties
+[07:38:33] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[07:38:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[07:38:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[07:38:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[07:38:35] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[07:38:35] [Server thread/INFO]: Default game type: SURVIVAL
+[07:38:35] [Server thread/INFO]: Generating keypair
+[07:38:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[07:38:35] [Server thread/INFO]: Using epoll channel type
+[07:38:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[07:38:35] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[07:38:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[07:38:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[07:38:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[07:38:38] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[07:38:39] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[07:38:39] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[07:38:41] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[07:38:41] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[07:38:41] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[07:38:41] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[07:38:41] [Server thread/INFO]: [NametagEdit] Loading server plugin NametagEdit v4.5.24
+[07:38:41] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[07:38:41] [Server thread/INFO]: [EC] Loading server plugin EterniumCore v1.0.0-b1
+[07:38:41] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[07:38:41] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
+[07:38:41] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[07:38:41] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[07:38:41] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[07:38:42] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.1
+[07:38:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[07:38:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[07:38:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[07:38:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[07:38:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[07:38:42] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[07:38:42] [Server thread/INFO]:         __    
+[07:38:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[07:38:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[07:38:42] [Server thread/INFO]: 
+[07:38:42] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[07:38:43] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[07:38:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[07:38:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[07:38:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1195ms)
+[07:38:43] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[07:38:43] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[07:38:44] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[07:38:44] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[07:38:44] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[07:38:44] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:38:44] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[07:38:44] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[07:38:44] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[07:38:44] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[07:38:44] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[07:38:44] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[07:38:44] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[07:38:44] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[07:38:44] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[07:38:44] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[07:38:44] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[07:38:44] [Server thread/INFO]: Preparing level "world"
+[07:38:44] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[07:38:45] [Server thread/INFO]: Time elapsed: 1163 ms
+[07:38:45] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[07:38:46] [Server thread/INFO]: Time elapsed: 210 ms
+[07:38:46] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[07:38:46] [Server thread/INFO]: Time elapsed: 121 ms
+[07:38:46] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[07:38:46] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[07:38:46] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[07:38:46] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[07:38:46] [Server thread/INFO]: [NametagEdit] Enabling NametagEdit v4.5.24
+[07:38:46] [Server thread/INFO]: [NametagEdit] Successfully loaded using bukkit version: v1_21_1
+[07:38:46] [Server thread/INFO]: [NametagEdit] Found LuckPerms! Hooking in.
+[07:38:46] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[07:38:46] [Server thread/INFO]: [EC] Enabling EterniumCore v1.0.0-b1
+[07:38:46] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ec [1.0.0-b1]
+[07:38:47] [Server thread/INFO]: [EC] [●] Database disabled
+[07:38:47] [Server thread/INFO]: [EC] [✔] LuckPerms found!
+[07:38:47] [Server thread/INFO]: [EC] [✔] PlaceholderAPI found!
+[07:38:47] [Server thread/INFO]: [EC] [✔] ProtocolLib found!
+[07:38:47] [Server thread/INFO]: [EC] [✔] Vault found!
+[07:38:47] [Server thread/INFO]: [EC]
+[07:38:47] [Server thread/INFO]: [EC] [✔] Modules activated on correctly!
+[07:38:47] [Server thread/INFO]: [EC] [✔] Economy started correctly!
+[07:38:47] [Server thread/INFO]: [EC]
+[07:38:47] [Server thread/INFO]: [EC] ███████╗ █████╗  █████╗ ██████╗ ███████╗
+[07:38:47] [Server thread/INFO]: [EC] ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
+[07:38:47] [Server thread/INFO]: [EC] █████╗  ██║  ╚═╝██║  ██║██████╔╝█████╗
+[07:38:47] [Server thread/INFO]: [EC] ██╔══╝  ██║  ██╗██║  ██║██╔══██╗██╔══╝
+[07:38:47] [Server thread/INFO]: [EC] ███████╗╚█████╔╝╚█████╔╝██║  ██║███████╗
+[07:38:47] [Server thread/INFO]: [EC] ╚══════╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚══════╝
+[07:38:47] [Server thread/INFO]: [EC] (It has been activated successfully!)
+[07:38:47] [Server thread/INFO]: [EC]
+[07:38:47] [Server thread/INFO]: [EC] » Version: 1.0.0-b1
+[07:38:47] [Server thread/INFO]: [EC] » Developers: [Zxmass, SxbxsMC, CheastOG]
+[07:38:47] [Server thread/INFO]: [EC] » Powered by: Eternium Studios
+[07:38:47] [Server thread/INFO]: [EC]
+[07:38:47] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[07:38:47] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[07:38:47] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[07:38:47] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[07:38:47] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[07:38:47] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[07:38:47] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
+[07:38:47] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
+[07:38:47] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[07:38:47] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[07:38:47] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[07:38:47] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[07:38:49] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[07:38:49] [Server thread/INFO]: [spark] Starting background profiler...
+[07:38:50] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[07:38:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[07:38:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[07:38:50] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[07:38:50] [Server thread/INFO]: 3 placeholder hook(s) registered!
+[07:38:50] [Server thread/INFO]: Done preparing level "world" (5.733s)
+[07:38:50] [Server thread/INFO]: Running delayed init tasks
+[07:38:50] [Server thread/INFO]: Done (25.052s)! For help, type "help"
+[07:38:50] [Server thread/INFO]: Timings Reset
+[07:38:50] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[07:38:50] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
+[07:38:50] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.0, you're on: 5.1.1
+[07:38:50] [Craft Scheduler Thread - 2 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[07:38:50] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
+[07:38:50] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] Checking Updates...
+[07:38:50] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] New update available: (3.3.0-b1). Download it at:
+[07:38:50] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] https://www.spigotmc.org/resources/eterniumcore.117120/
+[07:40:36] [User Authenticator #0/INFO]: UUID of player Zxmass is d291d5fb-6dea-36bf-8069-02c73d9907f0
+[07:40:40] [Server thread/INFO]: Zxmass[/127.235.62.135:48953] logged in with entity id 71 at ([world]-56.36906146463151, 86.0, -37.80757702795379)
+[07:40:50] [Server thread/INFO]: Zxmass issued server command: /friend list
+[07:42:24] [Server thread/INFO]: Zxmass issued server command: /gmc
+[07:47:37] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
