@@ -13,34 +13,31 @@ disabled_command: "&7Comando &cdesactivado&7."
 # COMPLEMENTOS EXTRAS
 enabled: "&a&lACTIVADO"
 disabled: "&c&lDESACTIVADO"
-accept: "&a&lACEPTAR"
-deny: "&c&lRECHAZAR"
-reply: "&a&lRESPONDER"
-delete: "&c&lELIMINAR"
 excelent: "&aEXCELENTE"
 regular: "&eREGULAR"
 bad: "&cMALA"
-open: "&a&lABRIR"
 separator: "&r &8- &r"
 list_type_1: " &7- &r"
 list_type_2: " &7* &r"
 list_type_3: " &7{n}. &r"
 
 # BOTONES
-accept_button: "&a&lACEPTAR"
-deny_button: "&c&lRECHAZAR"
-delete_button: "&c&lELIMINAR"
-msg_button: "&e&LMSG"
-bestfriend_button: "&b&lMEJOR AMIGO"
-next_button: "&a&lSIGUIENTE"
-back_button: "&c&lATRAS"
-return_button: "&c&lVOLVER"
-disabled_next_button: "&7&lSIGUIENTE"
-disabled_back_button: "&7&lATRAS"
-unlock_button: "&c&lDESBLOQUEAR"
-friends_button: "&a&lAMIGOS"
-bestfriends_button: "&b&lMEJORES AMIGOS"
-lockeds_button: "&c&lBLOQUEADOS"
+reply_button: "&8[&a✎&8]"
+open_button: "&8[&a📂&8]"
+accept_button: "&8[&a✔&8]"
+deny_button: "&8[&c✘&8]"
+delete_button: "&8[&c🗑&8]"
+msg_button: "&8[&e✉&8]"
+bestfriend_button: "&8[&b❤&8]"
+next_button: "&8[&7»&8]"
+back_button: "&8[&c«&8]"
+return_button: "&8[&c&8]"
+disabled_next_button: "&8[»]"
+disabled_back_button: "&8[«]"
+unlock_button: "&8[&c🔓&8]"
+friends_button: "&a[&aAmigos&a]"
+bestfriends_button: "&b[&bMejores Amigos&b]"
+lockeds_button: "&c[&cBloqueados&c]"
 
 # BOTONES HOVER
 msg_button_hover: "&7Enviar mensaje a &a{player}"
@@ -133,7 +130,7 @@ friend_cmd_add_player_request_friend:
   - "&8&l| &#FF1B4CSolicitud de Amistad &8- &7(De: &#FF1B4C{player}&7)"
   - ""
   - "&8&l| &#FF1B4C{player} &7te ha enviado una solicitud de &aamistad"
-  - "&8&l| &7Tiempo: &a{time}"
+  - "&8&l| &7Tienes &a{time} &7para responder la solicitud."
   - "&8&l| &8Usa /friend accept {player} - Para aceptarla"
   - "&8&l| &8Usa /friend deny {player} - Para rechazarla"
   - ""
@@ -179,11 +176,17 @@ friend_cmd_list_invalid_page: "&cNo hay &7mas paginas &cdisponibles&7."
 friend_cmd_list_invalid_type: "&7Tipo de lista &cincorrecto&7."
 friend_cmd_list_message:
   - ""
-  - "&8&l| &#FF1B4CLista de Amigos &8- &7(&a{totalFriends}&7) &8| &7(&b{totalBestFriends}&7) &8| &7(&c{totalLockeds}&7)"
+  - " &7» &8&m &r &7&m            &r &8&m &r  &#FF1B4CLista de Amigos  &8&m &r &7&m           &r &8&m &r &r &7«"
+  - "                      &8[&a{totalFriends}&8] &8/ &8[&b{totalBestFriends}&8] &8/ &8[&c{totalLockeds}&8]"
   - ""
-  - "&8&l| &7Aqui podras ver una lista de amigos, mejores amigos y bloqueados."
+  - "  &7    ● &8&m &r &7&m                 &r &7  &#FF1B4Cℹ&r  &r &7&m                 &r &8&m &r &7●"
+  - "  &7         Aqui podras ver una lista de"
+  - "  &7     amigos, mejores amigos y bloqueados."
+  - "  &7      Usa los botones para ir a la lista de"
+  - "  &7     amigos, mejores amigos o bloqueados."
+  - "  &7    ● &8&m &r &7&m                 &r &7&m      &r &7&m                 &r &8&m &r &7●"
   - ""
-  - "&8&l|&r {friends} &8-&r {bestfriends} &8-&r {lockeds}"
+  - " &7» &r {friends} &7/&r {bestfriends} &7/&r {lockeds} &7«"
   - ""
 friend_cmd_list_message_friends:
   - ""
@@ -219,6 +222,12 @@ friend_cmd_list_message_lockeds:
   - "&8&l|&r {back}"
   - ""
 friend_cmd_help_incorrect_usage: "&7Uso incorrecto. Usa &c/friend help"
+friend_cmd_help_message:
+  - ""
+  - '&8&l|              &#ff1b4cFriends &8- &#ff1b4cComandos'
+  - ""
+  - "&8&l| &#FF1B4C/friend &#a01130add <player> &8- &7Añade a un jugador como amigo."
+  - ""
 friend_cmd_system_disabled: "&cEl sistema de amigos está deshabilitado."
 friend_cmd_no_friends: " &7- &8Sin amigos."
 friend_cmd_no_bestfriends: " &7- &8Sin mejores amigos."
@@ -270,17 +279,17 @@ helpop_cmd_send_incorrect_usage: "&7Uso incorrecto. Usa: &c/helpop send <message
 helpop_cmd_mbox_incorrect_usage: "&7Uso incorrecto. Usa: &c/helpop mbox <player>"
 helpop_cmd_mbox_message:
   - ""
-  - "&8&l| &8[ &#FF1B4C&lMBOX MESSAGES &8 ]"
+  - "&8&l| &8[ &#FF1B4C&lMBOX - MENSAJES &8 ]"
   - ""
-  - "&8&l| &#FF1B4C⌚ Date:"
+  - "&8&l| &#FF1B4C⌚ Fecha y Hora:"
   - "&8&l| &7➥ &f{date}"
   - ""
-  - "&8&l| &#FF1B4C✎ Message:"
+  - "&8&l| &#FF1B4C✎ Mensaje:"
   - "&8&l| &7➥ &f{message}"
   - ""
   - " &8[{reply}&8]{separator}&8[{delete}&8]"
   - ""
-helpop_cmd_only_op: "&c¡Error 520! Visit: https://www.eterniumst.com/plugins/EterniumCore/ErrorsList"
+helpop_cmd_only_op: "&cSolo los ADMINISTRADORES pueden usar esta funcion."
 helpop_cmd_delete_incorrect_usage: "&7Uso incorrecto. Usa: &c/helpop delete <player>"
 helpop_cmd_delete_hover: "&cEliminar &7mensaje."
 helpop_cmd_delete_deleted_your_message: "&7Tu mensaje de ayuda ha sido &celiminado&7."
@@ -380,20 +389,17 @@ teleport_cmd_tprandom_teleported_randomly: "&aTeletransportado &baleatoriamente 
 teleport_cmd_tph_incorrect_usage: "&7Uso incorrecto. Usa: &c/tph"
 teleport_cmd_tph_message:
   - ''
-  - '&8&l|              &#ff1b4cTeleport &8- &#ff1b4cCommands'
+  - '&8&l|              &#ff1b4cTeleport &8- &#ff1b4cComandos'
   - ''
   - '&8&l| &#ff1b4c/tp &#a01130<player> &8- &7Teleports you to a player.'
-  - '&8&l| &#ff1b4c/tp2p &#a01130<player> [otherPlayer] &8- &7Teleports one player to
-  another.'
+  - '&8&l| &#ff1b4c/tp2p &#a01130<player> [otherPlayer] &8- &7Teleports one player to another.'
   - '&8&l| &#ff1b4c/tpa &#a01130<player> &8- &7Request teleportation from a player.'
   - '&8&l| &#ff1b4c/tpaccept &#a01130[player | *] &8- &7Accept a teleport request.'
   - '&8&l| &#ff1b4c/tpdeny &#a01130[player | *] &8- &7Reject a teleport request.'
   - '&8&l| &#ff1b4c/tpacancel &#a01130<player> &8- &7Cancel a teleport request.'
   - '&8&l| &#ff1b4c/tptoggle &#a01130<on | off> &8- &7Enable or disable teleport requests.'
-  - '&8&l| &#ff1b4c/tpauto &#a01130<on | off> &8- &7Enable or disable automatic acceptance
-  of requests.'
-  - '&8&l| &#ff1b4c/tppos &#a01130<x> <y> <z> [yaw] [pitch] [world] &8- &7Teleport to
-  a specific position or world.'
+  - '&8&l| &#ff1b4c/tpauto &#a01130<on | off> &8- &7Enable or disable automatic acceptance of requests.'
+  - '&8&l| &#ff1b4c/tppos &#a01130<x> <y> <z> [yaw] [pitch] [world] &8- &7Teleport to a specific position or world.'
   - '&8&l| &#ff1b4c/tprandom &#a01130[player] [world] &8- &7Teleports you randomly.'
   - '&8&l| &#ff1b4c/tphere &8- &7Teleport all players towards you.'
   - '&8&l| &#ff1b4c/tph &8- &7Show this message.'
