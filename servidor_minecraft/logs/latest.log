@@ -860,3 +860,6 @@ expected <block end>, but found '<block sequence start>'
 [23:45:30] [Server thread/INFO]: [EC] [●] Database disabled
 [23:45:31] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
 [23:46:54] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
+[23:56:38] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[23:56:38] [Server thread/INFO]: [EC] [●] Database disabled
+[23:56:39] [Server thread/INFO]: Zxmass issued server command: /friend list friends 1
