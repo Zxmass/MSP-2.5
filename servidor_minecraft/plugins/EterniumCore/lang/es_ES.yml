@@ -191,14 +191,13 @@ friend_cmd_list_message:
 friend_cmd_list_message_friends:
   - ""
   - " &7» &8&m &r &7&m            &r &8&m &r  &#FF1B4CLista de Amigos  &8&m &r &7&m           &r &8&m &r &r &7«"
-  - "                             &8[&a{totalFriends}&8]"
   - ""
-  - "  &#FF1B4C👥 Amigos  &7&m             &r &8&m &r"
+  - "  &#FF1B4C👥 Amigos &8(&a{totalFriends}&8)  &7&m             &r &8&m &r"
   - ""
   - "{lt3}{friendList}"
-  - " &8| &7&m               &r {backNav} &8[&a{totalFriends}&8] {nextNav} &7&m             &r &8|"
+  - " &8| &7&m            &r {backNav} &8(&a{page}&8) {nextNav} &7&m           &r &8|"
   - ""
-  - " &7» &8&m &r &7&m                &r &8&m &r {back} &8&m &r &7&m                 &r &8&m &r &7«"
+  - " &7» &8&m &r &7&m                 &r &8&m &r {back} &8&m &r &7&m                &r &8&m &r &7«"
   - ""
 friend_cmd_list_message_bestfriends:
   - ""
