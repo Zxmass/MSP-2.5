@@ -195,7 +195,7 @@ friend_cmd_list_message_friends:
   - "  &#FF1B4C👥 Amigos &8(&a{totalFriends}&8)  &7&m             &r &8&m &r"
   - ""
   - "{lt3}{friendList}"
-  - " &8| &7&m            &r {backNav} &8(&a{page}&8) {nextNav} &7&m           &r &8|"
+  - " &8| &7&m            &r {backNav} &8(&a(page}&8) {nextNav} &7&m           &r &8|"
   - ""
   - " &7» &8&m &r &7&m                 &r &8&m &r {back} &8&m &r &7&m                &r &8&m &r &7«"
   - ""
