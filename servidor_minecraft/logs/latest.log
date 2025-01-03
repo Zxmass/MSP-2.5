@@ -256,3 +256,39 @@ Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for l
 	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
 	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
 	... 27 more
+[21:24:12] [Server thread/INFO]: Zxmass lost connection: Disconnected
+[21:31:45] [Server thread/WARN]: Unexpected exception while parsing console command "money"
+org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 9 more
+[21:31:51] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
+[21:31:58] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
+[21:32:03] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
+[21:32:05] [Server thread/WARN]: Unexpected exception while parsing console command "money"
+org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
+	... 9 more
