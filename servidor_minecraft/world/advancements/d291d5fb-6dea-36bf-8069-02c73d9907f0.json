@@ -7,8 +7,10 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:ice_spikes": "2025-01-03 17:24:34 +0000",
       "minecraft:frozen_river": "2025-01-01 23:21:45 +0000",
-      "minecraft:snowy_plains": "2024-12-23 20:21:35 +0000"
+      "minecraft:snowy_plains": "2024-12-23 20:21:35 +0000",
+      "minecraft:snowy_taiga": "2025-01-03 07:53:27 +0000"
     },
     "done": false
   },

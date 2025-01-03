@@ -41,3 +41,5 @@ expansions:
       billions: B
       trillions: T
       quadrillions: Q
+  localtime:
+    date_format: dd/MM/yyyy hh:mma
