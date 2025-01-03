@@ -7,6 +7,26 @@
 settings:
   list:
     - example
+    - discordAnim
+
+discordAnim:
+  animation:
+  - " &9&n[Discord]&r  &8&n[Store]&r  &8&n[Website]&r \n\n&fEntra a Nuestro discord y\n&fenterate de las ultimas noticias. \n&f&ndiscord.gg/exampleInvite"
+  - " &9&n[Discord]&r  &8&n[Store]&r  &8&n[Website]&r \n\n&fEntra a Nuestro discord y\n&fenterate de las ultimas noticias. \n&f&ndiscord.gg/exampleInvite"
+  - " &9&n[Discord]&r  &8&n[Store]&r  &8&n[Website]&r \n\n&fEntra a Nuestro discord y\n&fenterate de las ultimas noticias. \n&f&ndiscord.gg/exampleInvite"
+  - " &9&n[Discord]&r  &8&n[Store]&r  &8&n[Website]&r \n\n&fEntra a Nuestro discord y\n&fenterate de las ultimas noticias. \n&f&ndiscord.gg/exampleInvite"
+  - " &9&n[Discord]&r  &8&n[Store]&r  &8&n[Website]&r \n\n&fEntra a Nuestro discord y\n&fenterate de las ultimas noticias. \n&f&ndiscord.gg/exampleInvite"
+  - " &8&n[Discord]&r  &a&n[Store]&r  &8&n[Website]&r \n\n&f&nstore.servernamemc.com"
+  - " &8&n[Discord]&r  &a&n[Store]&r  &8&n[Website]&r \n\n&f&nstore.servernamemc.com"
+  - " &8&n[Discord]&r  &a&n[Store]&r  &8&n[Website]&r \n\n&f&nstore.servernamemc.com"
+  - " &8&n[Discord]&r  &a&n[Store]&r  &8&n[Website]&r \n\n&f&nstore.servernamemc.com"
+  - " &8&n[Discord]&r  &a&n[Store]&r  &8&n[Website]&r \n\n&f&nstore.servernamemc.com"
+  - " &8&n[Discord]&r  &8&n[Store]&r  &e&n[Website]&r \n\n&f&nservernamemc.com"
+  - " &8&n[Discord]&r  &8&n[Store]&r  &e&n[Website]&r \n\n&f&nservernamemc.com"
+  - " &8&n[Discord]&r  &8&n[Store]&r  &e&n[Website]&r \n\n&f&nservernamemc.com"
+  - " &8&n[Discord]&r  &8&n[Store]&r  &e&n[Website]&r \n\n&f&nservernamemc.com"
+  - " &8&n[Discord]&r  &8&n[Store]&r  &e&n[Website]&r \n\n&f&nservernamemc.com"
+  refresh: 20
 
 example:
   animation:
