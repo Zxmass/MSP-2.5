@@ -1,17 +1,5 @@
 [
   {
-    "uuid": "e6b77574-189a-335d-bfac-2351980ab4b3",
-    "name": "TestBOT",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
-    "uuid": "daebc46b-4c7d-342f-ba57-b07fc7084e29",
-    "name": "testbot",
-    "level": 4,
-    "bypassesPlayerLimit": false
-  },
-  {
     "uuid": "d291d5fb-6dea-36bf-8069-02c73d9907f0",
     "name": "Zxmass",
     "level": 4,

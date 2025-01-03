@@ -34,6 +34,8 @@ expansions:
       medium: '&e'
       high: '&c'
       low: '&a'
+  localtime:
+    date_format: dd/MM/yyyy hh:mma
   vault:
     formatting:
       thousands: k
@@ -41,5 +43,3 @@ expansions:
       billions: B
       trillions: T
       quadrillions: Q
-  localtime:
-    date_format: dd/MM/yyyy hh:mma

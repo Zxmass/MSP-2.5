@@ -59,6 +59,7 @@ advancements:
   - minecraft:story/disabled
 world-settings:
   default:
+    verbose: false
     below-zero-generation-in-existing-chunks: true
     view-distance: default
     simulation-distance: default
@@ -172,7 +173,6 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    verbose: false
 players:
   disable-saving: false
 config-version: 12
