@@ -184,3 +184,25 @@
 [02:24:40] [Server thread/INFO]: Zxmass issued server command: /papi parse me &7%ec_total_friends%
 [02:24:43] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_total_friends%
 [02:27:34] [Server thread/INFO]: Zxmass lost connection: Timed out
+[02:45:45] [User Authenticator #1/INFO]: UUID of player Zxmass is d291d5fb-6dea-36bf-8069-02c73d9907f0
+[02:45:47] [Server thread/INFO]: Zxmass[/127.235.62.135:47271] logged in with entity id 723 at ([world]-9.056401813004019, 71.0, -229.45208513826955)
+[02:45:47] [Craft Scheduler Thread - 11 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Zxmass's timezone. Will use default timezone.
+[02:45:48] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
+[02:45:51] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[02:45:51] [Server thread/INFO]: [EC] [●] Database disabled
+[02:46:02] [Async Chat Thread - #0/INFO]: [Not Secure] <Zxmass> %ec_letterstyle1_&#d1d1d1m&8c.servername.net%
+[02:46:03] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
+[02:46:07] [Server thread/INFO]: Zxmass issued server command: /gmc
+[02:46:13] [Server thread/INFO]: Zxmass issued server command: /clime clear
+[02:46:16] [Server thread/INFO]: Zxmass issued server command: /time set dat
+[02:46:18] [Server thread/INFO]: Zxmass issued server command: /time set day
+[02:46:40] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_&#d1d1d1m&8c.servername.net%
+[02:47:02] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_&#ff1b4cm&8c.servername.net%
+[02:47:15] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_&#ff1b4cm&cc.servername.net%
+[02:47:21] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_&cmc.servername.net%
+[02:47:51] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[02:47:51] [Server thread/INFO]: [EC] [●] Database disabled
+[02:48:09] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[02:48:09] [Server thread/INFO]: [EC] [●] Database disabled
+[02:48:26] [Server thread/INFO]: Zxmass issued server command: /ec reload
+[02:48:26] [Server thread/INFO]: [EC] [●] Database disabled
