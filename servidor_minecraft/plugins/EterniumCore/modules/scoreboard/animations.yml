@@ -6,39 +6,25 @@
 
 settings:
   list:
-    - example
+    - servername
 
-example:
+servername:
   animation:
-    - "&7&m  &8&m                              &8"
-    - "&8&m &7&m  &8&m                             &8"
-    - "&8&m  &7&m  &8&m                            &8"
-    - "&8&m   &7&m  &8&m                           &8"
-    - "&8&m    &7&m  &8&m                          &8"
-    - "&8&m     &7&m  &8&m                         &8"
-    - "&8&m      &7&m  &8&m                        &8"
-    - "&8&m       &7&m  &8&m                       &8"
-    - "&8&m        &7&m  &8&m                      &8"
-    - "&8&m         &7&m  &8&m                     &8"
-    - "&8&m          &7&m  &8&m                    &8"
-    - "&8&m           &7&m  &8&m                   &8"
-    - "&8&m            &7&m  &8&m                  &8"
-    - "&8&m             &7&m  &8&m                 &8"
-    - "&8&m              &7&m  &8&m                &8"
-    - "&8&m               &7&m  &8&m               &8"
-    - "&8&m                &7&m  &8&m              &8"
-    - "&8&m                 &7&m  &8&m             &8"
-    - "&8&m                  &7&m  &8&m            &8"
-    - "&8&m                   &7&m  &8&m           &8"
-    - "&8&m                    &7&m  &8&m          &8"
-    - "&8&m                     &7&m  &8&m         &8"
-    - "&8&m                      &7&m  &8&m        &8"
-    - "&8&m                       &7&m  &8&m       &8"
-    - "&8&m                        &7&m  &8&m      &8"
-    - "&8&m                         &7&m  &8&m     &8"
-    - "&8&m                          &7&m  &8&m    &8"
-    - "&8&m                           &7&m  &8&m   &8"
-    - "&8&m                            &7&m  &8&m  &8"
-    - "&8&m                             &7&m  &8&m &8"
-    - "&8&m                              &7&m  &8&m&8"
+    - "&8%ec_letterstyle1_&#d1d1d1m&8c.servername.net%"
+    - "&8%ec_letterstyle1_&8m&#d1d1d1c&8.servername.net%"
+    - "&8%ec_letterstyle1_&8mc&#d1d1d1.&8servername.net%"
+    - "&8%ec_letterstyle1_&8mc.&#d1d1d1s&8ervername.net%"
+    - "&8%ec_letterstyle1_&8mc.s&#d1d1d1e&8rvername.net%"
+    - "&8%ec_letterstyle1_&8mc.se&#d1d1d1r&8vername.net%"
+    - "&8%ec_letterstyle1_&8mc.ser&#d1d1d1v&8ername.net%"
+    - "&8%ec_letterstyle1_&8mc.serv&#d1d1d1e&8rname.net%"
+    - "&8%ec_letterstyle1_&8mc.serve&#d1d1d1r&8name.net%"
+    - "&8%ec_letterstyle1_&8mc.server&#d1d1d1n&8ame.net%"
+    - "&8%ec_letterstyle1_&8mc.servern&#d1d1d1a&8me.net%"
+    - "&8%ec_letterstyle1_&8mc.serverna&#d1d1d1m&8e.net%"
+    - "&8%ec_letterstyle1_&8mc.servernam&#d1d1d1e&8.net%"
+    - "&8%ec_letterstyle1_&8mc.servername&#d1d1d1.&8net%"
+    - "&8%ec_letterstyle1_&8mc.servername.&#d1d1d1n&8et%"
+    - "&8%ec_letterstyle1_&8mc.servername.n&#d1d1d1e&8t%"
+    - "&8%ec_letterstyle1_&8mc.servername.ne&#d1d1d1t%"
   refresh: 20

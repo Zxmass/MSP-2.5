@@ -1,294 +1,176 @@
-[20:52:11] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
-[20:52:11] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
-[20:52:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[20:52:11] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar'...
-[20:52:12] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/EterniumCore-1.0.0-b1.jar' in 731ms.
-[20:52:12] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
-[20:52:12] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
+[01:42:28] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu120.04; Ubuntu null) on Linux 6.5.0-1025-azure (amd64)
+[01:42:28] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) for Minecraft 1.21.1
+[01:42:28] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[01:42:29] [ServerMain/INFO]: [PluginInitializerManager] Initialized 15 plugins
+[01:42:29] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (15):
  - CommandAPI (9.7.0), EterniumCore (1.0.0-b1), LuckPerms (5.4.146), Multiverse-Core (4.3.1-b861), NBTAPI (2.14.1), PlaceholderAPI (2.11.6), PlugManX (2.4.1), PluginManager (2.8.1), ProtocolLib (5.3.0), TAB (5.0.3), Vault (1.7.3-b131), ViaBackwards (5.1.1), ViaRewind (4.0.3), ViaVersion (5.1.1), fakeplayer (0.3.12)
-[20:52:16] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[20:52:17] [ServerMain/INFO]: Loaded 1290 recipes
-[20:52:18] [ServerMain/INFO]: Loaded 1399 advancements
-[20:52:18] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[20:52:18] [Server thread/INFO]: Loading properties
-[20:52:18] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
-[20:52:19] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[20:52:19] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[20:52:19] [Server thread/INFO]: Using 4 threads for Netty based IO
-[20:52:19] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
-[20:52:19] [Server thread/INFO]: Default game type: SURVIVAL
-[20:52:19] [Server thread/INFO]: Generating keypair
-[20:52:20] [Server thread/INFO]: Starting Minecraft server on *:25575
-[20:52:20] [Server thread/INFO]: Using epoll channel type
-[20:52:20] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
-[20:52:20] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
-[20:52:21] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
-[20:52:21] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
-[20:52:22] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
-[20:52:23] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
-[20:52:24] [Server thread/INFO]: [ViaBackwards] Loading translations...
-[20:52:24] [Server thread/INFO]: [ViaBackwards] Registering protocols...
-[20:52:25] [Server thread/INFO]: [ViaRewind] Registering protocols...
-[20:52:25] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
-[20:52:25] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
-[20:52:25] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
-[20:52:25] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
-[20:52:25] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
-[20:52:25] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.1
-[20:52:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
-[20:52:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
-[20:52:25] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
-[20:52:25] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
-[20:52:25] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v9.7.0
-[20:52:25] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
-[20:52:26] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
-[20:52:26] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
-[20:52:26] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
-[20:52:26] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
-[20:52:26] [Server thread/INFO]: [EC] Loading server plugin EterniumCore v1.0.0-b1
-[20:52:26] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
-[20:52:26] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
-[20:52:26] [Server thread/INFO]: [fakeplayer] Loading server plugin fakeplayer v0.3.12
-[20:52:26] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
-[20:52:26] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
-[20:52:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[20:52:26] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
-[20:52:26] [Server thread/INFO]:         __    
-[20:52:26] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
-[20:52:26] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
-[20:52:26] [Server thread/INFO]: 
-[20:52:26] [Server thread/INFO]: [LuckPerms] Loading configuration...
-[20:52:27] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
-[20:52:27] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
-[20:52:27] [Server thread/INFO]: [LuckPerms] Performing initial data load...
-[20:52:27] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1053ms)
-[20:52:27] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[20:52:27] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[20:52:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[20:52:28] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
-[20:52:28] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
-[20:52:28] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
-[20:52:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[20:52:28] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
-[20:52:28] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
-[20:52:28] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
-[20:52:28] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
-[20:52:28] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[20:52:28] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
-[20:52:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[20:52:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[20:52:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[20:52:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[20:52:28] [Server thread/INFO]: Preparing level "world"
-[20:52:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[20:52:30] [Server thread/INFO]: Time elapsed: 1029 ms
-[20:52:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[20:52:30] [Server thread/INFO]: Time elapsed: 180 ms
-[20:52:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[20:52:30] [Server thread/INFO]: Time elapsed: 110 ms
-[20:52:30] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
-[20:52:30] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
-[20:52:30] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
-[20:52:30] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
-[20:52:30] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[20:52:30] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
-[20:52:30] [Server thread/INFO]: [NBTAPI] Checking bindings...
-[20:52:31] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
-[20:52:31] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
-[20:52:31] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
-[20:52:32] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
-[20:52:32] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
-[20:52:32] [Server thread/INFO]: [TAB] Loaded NMS hook in 97ms
-[20:52:33] [Server thread/INFO]: [TAB] Enabled in 956ms
-[20:52:33] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v9.7.0
-[20:52:33] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
-[20:52:33] [Server thread/INFO]: [EC] Enabling EterniumCore v1.0.0-b1
-[20:52:33] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ec [1.0.0-b1]
-[20:52:34] [Server thread/INFO]: [EC] [●] Database disabled
-[20:52:34] [Server thread/INFO]: [EC] [✔] LuckPerms found!
-[20:52:34] [Server thread/INFO]: [EC] [✔] PlaceholderAPI found!
-[20:52:34] [Server thread/INFO]: [EC] [✔] TAB found!
-[20:52:34] [Server thread/INFO]: [EC] [✔] Vault found!
-[20:52:34] [Server thread/INFO]: [EC]
-[20:52:34] [Server thread/INFO]: [EC] [✔] Modules activated on correctly!
-[20:52:34] [Server thread/INFO]: [EC] [✔] Economy started correctly!
-[20:52:34] [Server thread/INFO]: [EC]
-[20:52:34] [Server thread/INFO]: [EC] ███████╗ █████╗  █████╗ ██████╗ ███████╗
-[20:52:34] [Server thread/INFO]: [EC] ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
-[20:52:34] [Server thread/INFO]: [EC] █████╗  ██║  ╚═╝██║  ██║██████╔╝█████╗
-[20:52:34] [Server thread/INFO]: [EC] ██╔══╝  ██║  ██╗██║  ██║██╔══██╗██╔══╝
-[20:52:34] [Server thread/INFO]: [EC] ███████╗╚█████╔╝╚█████╔╝██║  ██║███████╗
-[20:52:34] [Server thread/INFO]: [EC] ╚══════╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚══════╝
-[20:52:34] [Server thread/INFO]: [EC] (It has been activated successfully!)
-[20:52:34] [Server thread/INFO]: [EC]
-[20:52:34] [Server thread/INFO]: [EC] » Version: 1.0.0-b1
-[20:52:34] [Server thread/INFO]: [EC] » Developers: [Zxmass, SxbxsMC, CheastOG]
-[20:52:34] [Server thread/INFO]: [EC] » Powered by: Eternium Studios
-[20:52:34] [Server thread/INFO]: [EC]
-[20:52:34] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
-[20:52:34] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
-[20:52:34] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
-[20:52:34] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
-[20:52:34] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
-[20:52:34] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
-[20:52:34] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
-[20:52:34] [Server thread/INFO]: [fakeplayer] Enabling fakeplayer v0.3.12
-[20:52:35] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Starting...
-[20:52:35] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] fakeplayer-datasource - Added connection org.sqlite.jdbc4.JDBC4Connection@9713d1b
-[20:52:35] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Start completed.
-[20:52:35] [Server thread/INFO]: [fakeplayer] Using simple invsee implement
-[20:52:36] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: fakeplayer [1.0]
-[20:52:36] [Server thread/INFO]: [fakeplayer] Successfully registered PlaceholderExpansion
-[20:52:36] [Server thread/INFO]: [fakeplayer] Enabled in 9758 ms
-[20:52:36] [Server thread/INFO]: [spark] Starting background profiler...
-[20:52:36] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[20:52:36] [Server thread/INFO]: Done preparing level "world" (7.810s)
-[20:52:36] [Server thread/INFO]: Running delayed init tasks
-[20:52:36] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
-[20:52:36] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
-[20:52:36] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] Checking for Updates ... 
-[20:52:36] [Craft Scheduler Thread - 0 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
-[20:52:36] [Craft Scheduler Thread - 5 - Vault/INFO]: [Vault] No new version available
-[20:52:36] [Craft Scheduler Thread - 1 - EterniumCore/INFO]: [EC] Checking Updates...
-[20:52:36] [Craft Scheduler Thread - 1 - EterniumCore/INFO]: [EC] New update available: (3.3.0-b1). Download it at:
-[20:52:36] [Craft Scheduler Thread - 1 - EterniumCore/INFO]: [EC] https://www.spigotmc.org/resources/eterniumcore.117120/
-[20:52:38] [Server thread/INFO]: Loaded 1290 recipes
-[20:52:38] [Server thread/INFO]: Loaded 1399 advancements
-[20:52:38] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
-[20:52:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
-[20:52:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
-[20:52:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
-[20:52:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
-[20:52:38] [Server thread/INFO]: 4 placeholder hook(s) registered!
-[20:52:38] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.1.1
-[20:52:38] [Server thread/INFO]: Done (28.311s)! For help, type "help"
-[20:52:38] [Server thread/INFO]: Timings Reset
-[20:52:45] [User Authenticator #0/INFO]: UUID of player Zxmass is d291d5fb-6dea-36bf-8069-02c73d9907f0
-[20:52:48] [Server thread/INFO]: Zxmass[/127.235.62.135:54839] logged in with entity id 26 at ([world]-27.76634659158642, 65.0800316788948, -296.66172409470636)
-[20:53:03] [Server thread/INFO]: Zxmass issued server command: /gmc
-[20:53:05] [Server thread/INFO]: Zxmass issued server command: /afk
-[20:53:05] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
-[20:53:09] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
-[20:54:01] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_hola%
-[20:54:08] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_%player_name%%
-[20:54:12] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_%player_name%}%
-[20:54:21] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_{player_name}%
-[20:54:26] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_{player}%
-[20:54:29] [Server thread/INFO]: Zxmass issued server command: /fly
-[20:54:30] [Server thread/INFO]: Zxmass issued server command: /fly
-[20:55:48] [Server thread/INFO]: Zxmass issued server command: /money
-[20:55:48] [Server thread/ERROR]: Command exception: /money
-org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[20:57:15] [Server thread/INFO]: Zxmass issued server command: /friend list bestfriends 1
-[20:58:14] [Server thread/INFO]: Zxmass issued server command: /friend list
-[20:58:36] [Server thread/INFO]: Zxmass issued server command: /ec reload
-[20:58:36] [Server thread/INFO]: [EC] [●] Database disabled
-[20:58:44] [Server thread/INFO]: Zxmass issued server command: /fly sd
-[20:58:46] [Server thread/INFO]: Zxmass issued server command: /fly sd asd a
-[20:58:58] [Server thread/INFO]: Zxmass issued server command: /ec reload
-[20:58:58] [Server thread/INFO]: [EC] [●] Database disabled
-[20:58:59] [Server thread/INFO]: Zxmass issued server command: /fly sd asd a
-[21:04:03] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
-[21:20:52] [Server thread/INFO]: Zxmass issued server command: /money
-[21:20:52] [Server thread/ERROR]: Command exception: /money
-org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:91) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:31) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:19) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:103) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:443) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:350) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:337) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.commands.Commands.performCommand(Commands.java:332) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.performUnsignedChatCommand(ServerGamePacketListenerImpl.java:2218) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$11(ServerGamePacketListenerImpl.java:2192) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:151) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1537) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:201) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:125) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1514) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1507) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:135) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1466) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1473) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1318) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	... 27 more
-[21:24:12] [Server thread/INFO]: Zxmass lost connection: Disconnected
-[21:31:45] [Server thread/WARN]: Unexpected exception while parsing console command "money"
-org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	... 9 more
-[21:31:51] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
-[21:31:58] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
-[21:32:03] [Server thread/INFO]: [EterniumCore] » Uso incorrecto. Usa: /balance <player>
-[21:32:05] [Server thread/WARN]: Unexpected exception while parsing console command "money"
-org.bukkit.command.CommandException: Unhandled exception executing command 'money' in plugin EterniumCore v1.0.0-b1
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:47) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:165) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1000) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at org.bukkit.craftbukkit.CraftServer.dispatchServerCommand(CraftServer.java:985) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.handleConsoleInputs(DedicatedServer.java:526) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:474) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1598) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1304) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:330) ~[paper-1.21.1.jar:1.21.1-57-b483da4]
-	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
-Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 0 out of bounds for length 0
-	at EterniumCore-1.0.0-b1.jar/st.eterniumstudios.eterniumcore.commands.economy.BalanceCommand.onCommand(BalanceCommand.java:23) ~[EterniumCore-1.0.0-b1.jar:?]
-	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[paper-mojangapi-1.21.1-R0.1-SNAPSHOT.jar:?]
-	... 9 more
+[01:42:33] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:42:34] [ServerMain/INFO]: Loaded 1290 recipes
+[01:42:34] [ServerMain/INFO]: Loaded 1399 advancements
+[01:42:35] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[01:42:35] [Server thread/INFO]: Loading properties
+[01:42:35] [Server thread/INFO]: This server is running Paper version 1.21.1-57-master@b483da4 (2024-09-01T18:09:05Z) (Implementing API version 1.21.1-R0.1-SNAPSHOT)
+[01:42:35] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[01:42:36] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[01:42:36] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:42:36] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and population gen parallelism of 1 threads
+[01:42:36] [Server thread/INFO]: Default game type: SURVIVAL
+[01:42:36] [Server thread/INFO]: Generating keypair
+[01:42:36] [Server thread/INFO]: Starting Minecraft server on *:25575
+[01:42:37] [Server thread/INFO]: Using epoll channel type
+[01:42:37] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[01:42:37] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[01:42:38] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.1.1
+[01:42:38] [Server thread/INFO]: [ViaVersion] ViaVersion 5.1.1 is now loaded. Registering protocol transformers and injecting...
+[01:42:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[01:42:40] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[01:42:41] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[01:42:41] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[01:42:42] [Server thread/INFO]: [ViaRewind] Registering protocols...
+[01:42:42] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.146
+[01:42:42] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.1.1
+[01:42:42] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[01:42:42] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[01:42:42] [Server thread/INFO]: [ViaRewind] Loading server plugin ViaRewind v4.0.3
+[01:42:42] [Server thread/INFO]: [NBTAPI] Loading server plugin NBTAPI v2.14.1
+[01:42:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.1! Trying to find NMS support
+[01:42:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R1' loaded!
+[01:42:42] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'NBTAPI' to create a bStats instance!
+[01:42:42] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.0.3
+[01:42:42] [Server thread/INFO]: [CommandAPI] Loading server plugin CommandAPI v9.7.0
+[01:42:43] [Thread-6/INFO]: [NBTAPI] [NBTAPI] The NBT-API seems to be up-to-date!
+[01:42:43] [Server thread/INFO]: [CommandAPI] Loaded platform NMS_1_21_R1 > NMS_Common > CommandAPIBukkit
+[01:42:43] [Server thread/INFO]: [CommandAPI] Hooked into Spigot successfully for Chat/ChatComponents
+[01:42:43] [Server thread/INFO]: [CommandAPI] Hooked into Adventure for AdventureChat/AdventureChatComponents
+[01:42:43] [Server thread/INFO]: [CommandAPI] Hooked into Paper for paper-specific API implementations
+[01:42:43] [Server thread/INFO]: [EC] Loading server plugin EterniumCore v1.0.0-b1
+[01:42:43] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[01:42:43] [Server thread/INFO]: [PluginManager] Loading server plugin PluginManager v2.8.1
+[01:42:43] [Server thread/INFO]: [fakeplayer] Loading server plugin fakeplayer v0.3.12
+[01:42:43] [Server thread/INFO]: [PlugManX] Loading server plugin PlugManX v2.4.1
+[01:42:43] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.3.0
+[01:42:43] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:42:43] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.146
+[01:42:44] [Server thread/INFO]:         __    
+[01:42:44] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.146
+[01:42:44] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[01:42:44] [Server thread/INFO]: 
+[01:42:44] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[01:42:44] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[01:42:44] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[01:42:45] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[01:42:45] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1217ms)
+[01:42:45] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[01:42:45] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[01:42:45] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[01:42:45] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[01:42:45] [Server thread/INFO]: [ViaRewind] Enabling ViaRewind v4.0.3
+[01:42:45] [Server thread/INFO]: [PlugManX] Enabling PlugManX v2.4.1
+[01:42:45] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[01:42:45] [Server thread/WARN]: [PlugManX] It seems like you're running on paper.
+[01:42:45] [Server thread/WARN]: [PlugManX] PlugManX cannot interact with paper-plugins, yet.
+[01:42:45] [Server thread/WARN]: [PlugManX] Also, if you encounter any issues, please join my discord: https://discord.gg/GxEFhVY6ff
+[01:42:45] [Server thread/WARN]: [PlugManX] Or create an issue on GitHub: https://github.com/TheBlackEntity/PlugMan
+[01:42:45] [Server thread/WARN]: [PlugManX] ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[01:42:45] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[01:42:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:42:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:42:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01:42:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:42:45] [Server thread/INFO]: Preparing level "world"
+[01:42:46] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[01:42:47] [Server thread/INFO]: Time elapsed: 1450 ms
+[01:42:47] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[01:42:48] [Server thread/INFO]: Time elapsed: 291 ms
+[01:42:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[01:42:48] [Server thread/INFO]: Time elapsed: 156 ms
+[01:42:48] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.1.1
+[01:42:48] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21-1.21.1 (767)
+[01:42:48] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.1.1
+[01:42:48] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[01:42:49] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[01:42:49] [Server thread/INFO]: [NBTAPI] Enabling NBTAPI v2.14.1
+[01:42:49] [Server thread/INFO]: [NBTAPI] Checking bindings...
+[01:42:49] [Server thread/INFO]: [NBTAPI] All Classes were able to link!
+[01:42:49] [Server thread/INFO]: [NBTAPI] All Methods were able to link!
+[01:42:49] [Server thread/INFO]: [NBTAPI] Running NBT reflection test...
+[01:42:51] [Server thread/INFO]: [NBTAPI] Success! This version of NBT-API is compatible with your server.
+[01:42:51] [Server thread/INFO]: [TAB] Enabling TAB v5.0.3
+[01:42:51] [Server thread/INFO]: [TAB] Loaded NMS hook in 94ms
+[01:42:53] [Server thread/INFO]: [TAB] Enabled in 2135ms
+[01:42:53] [Server thread/INFO]: [CommandAPI] Enabling CommandAPI v9.7.0
+[01:42:53] [Server thread/INFO]: [CommandAPI] Hooked into Paper ServerResourcesReloadedEvent
+[01:42:53] [Server thread/INFO]: [EC] Enabling EterniumCore v1.0.0-b1
+[01:42:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: ec [1.0.0-b1]
+[01:42:54] [Server thread/INFO]: [EC] [●] Database disabled
+[01:42:54] [Server thread/INFO]: [EC] [✔] LuckPerms found!
+[01:42:54] [Server thread/INFO]: [EC] [✔] PlaceholderAPI found!
+[01:42:54] [Server thread/INFO]: [EC] [✔] TAB found!
+[01:42:54] [Server thread/INFO]: [EC] [✔] Vault found!
+[01:42:54] [Server thread/INFO]: [EC]
+[01:42:54] [Server thread/INFO]: [EC] [✔] Modules activated on correctly!
+[01:42:54] [Server thread/INFO]: [EC] [✔] Economy started correctly!
+[01:42:54] [Server thread/INFO]: [EC]
+[01:42:54] [Server thread/INFO]: [EC] ███████╗ █████╗  █████╗ ██████╗ ███████╗
+[01:42:54] [Server thread/INFO]: [EC] ██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝
+[01:42:54] [Server thread/INFO]: [EC] █████╗  ██║  ╚═╝██║  ██║██████╔╝█████╗
+[01:42:54] [Server thread/INFO]: [EC] ██╔══╝  ██║  ██╗██║  ██║██╔══██╗██╔══╝
+[01:42:54] [Server thread/INFO]: [EC] ███████╗╚█████╔╝╚█████╔╝██║  ██║███████╗
+[01:42:54] [Server thread/INFO]: [EC] ╚══════╝ ╚════╝  ╚════╝ ╚═╝  ╚═╝╚══════╝
+[01:42:54] [Server thread/INFO]: [EC] (It has been activated successfully!)
+[01:42:54] [Server thread/INFO]: [EC]
+[01:42:54] [Server thread/INFO]: [EC] » Version: 1.0.0-b1
+[01:42:54] [Server thread/INFO]: [EC] » Developers: [Zxmass, SxbxsMC, CheastOG]
+[01:42:54] [Server thread/INFO]: [EC] » Powered by: Eternium Studios
+[01:42:54] [Server thread/INFO]: [EC]
+[01:42:54] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[01:42:54] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[01:42:54] [Server thread/INFO]: [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[01:42:54] [Server thread/INFO]: Preparing start region for dimension minecraft:exampleworld
+[01:42:54] [Server thread/INFO]: Time elapsed: 170 ms
+[01:42:54] [Server thread/INFO]: [Multiverse-Core] 4 - World(s) loaded.
+[01:42:55] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[01:42:55] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[01:42:55] [Server thread/INFO]: [PluginManager] Enabling PluginManager v2.8.1
+[01:42:55] [Server thread/INFO]: [fakeplayer] Enabling fakeplayer v0.3.12
+[01:42:56] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Starting...
+[01:42:56] [Server thread/INFO]: [com.zaxxer.hikari.pool.HikariPool] fakeplayer-datasource - Added connection org.sqlite.jdbc4.JDBC4Connection@2e4e47f2
+[01:42:56] [Server thread/INFO]: [com.zaxxer.hikari.HikariDataSource] fakeplayer-datasource - Start completed.
+[01:42:56] [Server thread/INFO]: [fakeplayer] Using simple invsee implement
+[01:42:56] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: fakeplayer [1.0]
+[01:42:56] [Server thread/INFO]: [fakeplayer] Successfully registered PlaceholderExpansion
+[01:42:56] [Server thread/INFO]: [fakeplayer] Enabled in 13179 ms
+[01:42:56] [Server thread/INFO]: [spark] Starting background profiler...
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[01:42:57] [Server thread/INFO]: Done preparing level "world" (11.227s)
+[01:42:57] [Server thread/INFO]: Running delayed init tasks
+[01:42:57] [Server thread/INFO]: [CommandAPI] Reloading datapacks...
+[01:42:57] [Craft Scheduler Thread - 2 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[01:42:57] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] Checking for Updates ... 
+[01:42:57] [Craft Scheduler Thread - 4 - PluginManager/INFO]: PM | You are using the latest version of PluginManager.
+[01:42:57] [Craft Scheduler Thread - 2 - Vault/INFO]: [Vault] No new version available
+[01:42:57] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] Checking Updates...
+[01:42:57] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] New update available: (3.3.0-b1). Download it at:
+[01:42:57] [Craft Scheduler Thread - 0 - EterniumCore/INFO]: [EC] https://www.spigotmc.org/resources/eterniumcore.117120/
+[01:42:57] [Server thread/INFO]: Loaded 1290 recipes
+[01:42:57] [Server thread/INFO]: Loaded 1399 advancements
+[01:42:57] [Server thread/INFO]: [CommandAPI] Finished reloading datapacks
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.8]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: localtime [1.2]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: bungee [2.3]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: server [2.7.3]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: world [1.2.2]
+[01:42:57] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: vault [1.8.3]
+[01:42:57] [Server thread/INFO]: 7 placeholder hook(s) registered!
+[01:42:57] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.2.1, you're on: 5.1.1
+[01:42:57] [Server thread/INFO]: Done (30.162s)! For help, type "help"
+[01:42:57] [Server thread/INFO]: Timings Reset
+[01:43:01] [User Authenticator #0/INFO]: UUID of player Zxmass is d291d5fb-6dea-36bf-8069-02c73d9907f0
+[01:43:03] [Server thread/INFO]: Zxmass[/127.235.62.135:36929] logged in with entity id 102 at ([world]-48.96413095481875, 64.0, -86.25745387985849)
+[01:43:04] [Craft Scheduler Thread - 0 - PlaceholderAPI/INFO]: [LocalTime] Couldn't get Zxmass's timezone. Will use default timezone.
+[01:43:45] [Server thread/INFO]: Zxmass issued server command: /gmc
+[01:49:47] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
+[01:51:11] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
+[01:51:42] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_{money}%
+[01:52:15] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_Your money is {money}%

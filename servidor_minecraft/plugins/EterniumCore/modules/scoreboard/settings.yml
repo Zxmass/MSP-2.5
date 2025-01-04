@@ -10,16 +10,19 @@ settings:
     refresh: 20
     title: "&#ff1b4c&lMODULE SB"
     lines:
-      - "<example.anim>"
       - ""
-      - "&8| &7✎ &#ff1b4cUser: &7%ec_playername%"
-      - "&8| &7● &#ff1b4cRank: &7%vault_rank%"
-      - "&8| &7⛁ &#ff1b4cMoney: &7$%vault_eco_balance_formatted%"
+      - " &#FF1B4Cℹ Information &8&m       "
       - ""
-      - "&8| &7● &#ff1b4cLevel: &7%alonsolevels_level%"
-      - "&8| &7● &#ff1b4cIP: &7mc.servername.net"
+      - "  &8| &#FF1B4C✎ &7User: &8%ec_playername%"
+      - "  &8| &#FF1B4C● &7Rank: &f%luckperms_prefix%"
+      - "  &8| &#FF1B4C⛁ &7Money: &#d1d1d1$%vault_eco_balance_formatted% ⛁"
       - ""
-      - "<example.anim>"
+      - " &#FF1B4C❑ Server &8&m       "
+      - ""
+      - "  &8| &#FF1B4C● &7Players: &#d1d1d1%server_online%&8/&#d1d1d1%server_max_players%"
+      - ""
+      - "<serverName.anim>"
+      - ""
 
   ############################################################
   # +------------------------------------------------------+ #
@@ -31,15 +34,20 @@ settings:
     exampleScoreboard:
       enabled: true
       refresh: 20
-      title: "&#FF1B4C&lMODULE SB PER-WORLD"
+      title: "&#FF1B4C&lMODULE SB PERWORLD"
       lines:
-        - "<example.anim>"
         - ""
-        - "&71. Line"
-        - "&72. Line"
-        - "&73. Line"
-        - "&74. Line"
-        - "&75. Line"
+        - " &#FF1B4Cℹ Information &8&m       "
         - ""
-        - "<example.anim>"
+        - "  &8| &#FF1B4C✎ &7User: &8%ec_playername%"
+        - "  &8| &#FF1B4C● &7Rank: &f%luckperms_prefix%"
+        - "  &8| &#FF1B4C⛁ &7Money: &#d1d1d1$%vault_eco_balance_formatted% ⛁"
+        - ""
+        - " &#FF1B4C◎ World &8&m       "
+        - ""
+        - "  &8| &#FF1B4C● &7World: &#d1d1d1exampleWorld"
+        - "  &8| &#FF1B4C● &7Biome: &#d1d1d1%world_biome%"
+        - ""
+        - "     <serverName.anim>"
+        - ""
       world: exampleWorld # Here should be the name of the world that you want to show the Scoreboard

@@ -114,7 +114,7 @@ enderchest_cmd_open_enderchest_for_player: "&7Has &aabierto &7el &dEnderChest &7
 enderchest_cmd_no_permission: "&cNo puedes &7abrir el &dEnderChest &7de otros jugadores."
 enderchest_cmd_incorrect_usage: "&7Uso incorrect. Usa &c/enderchest [player]"
 
-fly_cmd_status: "&7Vuelo {flystatus}"
+fly_cmd_status: "&7Vuelo %ec_letterstyle1_{flystatus}%"
 fly_cmd_changed: "&7Te han {flystatus}&7, el vuelo"
 fly_cmd_for_player_by_console: "&7Vuelo {flystatus} &7para &a{player}"
 fly_cmd_for_player_by_player: "&7Vuelo {flystatus} &7para &a{player}"
