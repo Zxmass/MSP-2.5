@@ -174,3 +174,9 @@
 [01:51:11] [Server thread/INFO]: [EterniumCore] » Zxmass ya no esta a AFK.
 [01:51:42] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_{money}%
 [01:52:15] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_Your money is {money}%
+[01:53:26] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_hi {playerName}%
+[01:53:31] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_hi {player}%
+[01:53:44] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_hi {playername}%
+[01:54:33] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_hi {rank}%
+[01:54:50] [Server thread/INFO]: Zxmass issued server command: /papi parse me %ec_letterstyle1_Your Rank is {lpPrefix}%
+[02:02:05] [Server thread/INFO]: [EterniumCore] » Zxmass esta a AFK
